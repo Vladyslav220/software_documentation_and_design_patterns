@@ -1,0 +1,1001 @@
+user_id,email,password,subscription_type,artist_id,artist_name,playlist_id,playlist_name,song_id,song_title,duration,duration_played
+1,user1@mail.com,pass1,Student,1,Coldplay,1,Playlist 1,1,Song 1,163,92
+2,user2@mail.com,pass2,Student,2,Adele,2,Playlist 2,2,Song 2,272,165
+3,user3@mail.com,pass3,Premium,3,Imagine Dragons,3,Playlist 3,3,Song 3,179,272
+4,user4@mail.com,pass4,Family,4,Taylor Swift,4,Playlist 4,4,Song 4,271,269
+5,user5@mail.com,pass5,Premium,5,Coldplay,5,Playlist 5,5,Song 5,191,260
+6,user6@mail.com,pass6,Student,6,Taylor Swift,6,Playlist 6,6,Song 6,284,164
+7,user7@mail.com,pass7,Student,7,Ed Sheeran,7,Playlist 7,7,Song 7,171,190
+8,user8@mail.com,pass8,Premium,8,Taylor Swift,8,Playlist 8,8,Song 8,229,291
+9,user9@mail.com,pass9,Student,9,Ed Sheeran,9,Playlist 9,9,Song 9,233,52
+10,user10@mail.com,pass10,Premium,10,Ed Sheeran,10,Playlist 10,10,Song 10,184,101
+11,user11@mail.com,pass11,Premium,11,Imagine Dragons,11,Playlist 11,11,Song 11,233,279
+12,user12@mail.com,pass12,Free,12,Coldplay,12,Playlist 12,12,Song 12,238,188
+13,user13@mail.com,pass13,Student,13,Adele,13,Playlist 13,13,Song 13,232,133
+14,user14@mail.com,pass14,Premium,14,Ed Sheeran,14,Playlist 14,14,Song 14,276,255
+15,user15@mail.com,pass15,Student,15,Imagine Dragons,15,Playlist 15,15,Song 15,181,268
+16,user16@mail.com,pass16,Free,16,Coldplay,16,Playlist 16,16,Song 16,256,271
+17,user17@mail.com,pass17,Premium,17,Adele,17,Playlist 17,17,Song 17,272,40
+18,user18@mail.com,pass18,Premium,18,Ed Sheeran,18,Playlist 18,18,Song 18,211,125
+19,user19@mail.com,pass19,Family,19,Imagine Dragons,19,Playlist 19,19,Song 19,254,163
+20,user20@mail.com,pass20,Family,20,Taylor Swift,20,Playlist 20,20,Song 20,272,273
+21,user21@mail.com,pass21,Premium,21,Taylor Swift,21,Playlist 21,21,Song 21,246,53
+22,user22@mail.com,pass22,Family,22,Ed Sheeran,22,Playlist 22,22,Song 22,287,193
+23,user23@mail.com,pass23,Premium,23,Adele,23,Playlist 23,23,Song 23,193,120
+24,user24@mail.com,pass24,Family,24,Coldplay,24,Playlist 24,24,Song 24,268,185
+25,user25@mail.com,pass25,Premium,25,Ed Sheeran,25,Playlist 25,25,Song 25,181,76
+26,user26@mail.com,pass26,Family,26,Taylor Swift,26,Playlist 26,26,Song 26,151,170
+27,user27@mail.com,pass27,Family,27,Imagine Dragons,27,Playlist 27,27,Song 27,273,259
+28,user28@mail.com,pass28,Student,28,Imagine Dragons,28,Playlist 28,28,Song 28,211,162
+29,user29@mail.com,pass29,Premium,29,Coldplay,29,Playlist 29,29,Song 29,132,281
+30,user30@mail.com,pass30,Student,30,Coldplay,30,Playlist 30,30,Song 30,288,159
+31,user31@mail.com,pass31,Family,31,Taylor Swift,31,Playlist 31,31,Song 31,258,248
+32,user32@mail.com,pass32,Family,32,Coldplay,32,Playlist 32,32,Song 32,143,285
+33,user33@mail.com,pass33,Free,33,Ed Sheeran,33,Playlist 33,33,Song 33,244,272
+34,user34@mail.com,pass34,Premium,34,Coldplay,34,Playlist 34,34,Song 34,206,30
+35,user35@mail.com,pass35,Premium,35,Imagine Dragons,35,Playlist 35,35,Song 35,161,36
+36,user36@mail.com,pass36,Premium,36,Imagine Dragons,36,Playlist 36,36,Song 36,207,177
+37,user37@mail.com,pass37,Family,37,Ed Sheeran,37,Playlist 37,37,Song 37,177,231
+38,user38@mail.com,pass38,Free,38,Adele,38,Playlist 38,38,Song 38,165,258
+39,user39@mail.com,pass39,Student,39,Taylor Swift,39,Playlist 39,39,Song 39,295,258
+40,user40@mail.com,pass40,Premium,40,Ed Sheeran,40,Playlist 40,40,Song 40,169,190
+41,user41@mail.com,pass41,Student,41,Taylor Swift,41,Playlist 41,41,Song 41,223,36
+42,user42@mail.com,pass42,Free,42,Ed Sheeran,42,Playlist 42,42,Song 42,246,89
+43,user43@mail.com,pass43,Premium,43,Ed Sheeran,43,Playlist 43,43,Song 43,230,152
+44,user44@mail.com,pass44,Family,44,Coldplay,44,Playlist 44,44,Song 44,131,159
+45,user45@mail.com,pass45,Family,45,Imagine Dragons,45,Playlist 45,45,Song 45,242,199
+46,user46@mail.com,pass46,Free,46,Imagine Dragons,46,Playlist 46,46,Song 46,232,237
+47,user47@mail.com,pass47,Student,47,Coldplay,47,Playlist 47,47,Song 47,141,61
+48,user48@mail.com,pass48,Premium,48,Taylor Swift,48,Playlist 48,48,Song 48,143,273
+49,user49@mail.com,pass49,Student,49,Taylor Swift,49,Playlist 49,49,Song 49,218,149
+50,user50@mail.com,pass50,Premium,50,Imagine Dragons,50,Playlist 50,50,Song 50,297,105
+51,user51@mail.com,pass51,Student,51,Taylor Swift,51,Playlist 51,51,Song 51,282,153
+52,user52@mail.com,pass52,Free,52,Coldplay,52,Playlist 52,52,Song 52,138,188
+53,user53@mail.com,pass53,Free,53,Taylor Swift,53,Playlist 53,53,Song 53,177,33
+54,user54@mail.com,pass54,Premium,54,Adele,54,Playlist 54,54,Song 54,268,34
+55,user55@mail.com,pass55,Premium,55,Ed Sheeran,55,Playlist 55,55,Song 55,286,264
+56,user56@mail.com,pass56,Student,56,Adele,56,Playlist 56,56,Song 56,175,109
+57,user57@mail.com,pass57,Free,57,Imagine Dragons,57,Playlist 57,57,Song 57,194,170
+58,user58@mail.com,pass58,Student,58,Taylor Swift,58,Playlist 58,58,Song 58,269,231
+59,user59@mail.com,pass59,Student,59,Coldplay,59,Playlist 59,59,Song 59,127,223
+60,user60@mail.com,pass60,Premium,60,Coldplay,60,Playlist 60,60,Song 60,166,191
+61,user61@mail.com,pass61,Student,61,Adele,61,Playlist 61,61,Song 61,224,240
+62,user62@mail.com,pass62,Student,62,Adele,62,Playlist 62,62,Song 62,280,167
+63,user63@mail.com,pass63,Student,63,Imagine Dragons,63,Playlist 63,63,Song 63,179,59
+64,user64@mail.com,pass64,Free,64,Ed Sheeran,64,Playlist 64,64,Song 64,150,98
+65,user65@mail.com,pass65,Premium,65,Adele,65,Playlist 65,65,Song 65,199,67
+66,user66@mail.com,pass66,Student,66,Imagine Dragons,66,Playlist 66,66,Song 66,295,204
+67,user67@mail.com,pass67,Free,67,Coldplay,67,Playlist 67,67,Song 67,150,168
+68,user68@mail.com,pass68,Family,68,Imagine Dragons,68,Playlist 68,68,Song 68,280,163
+69,user69@mail.com,pass69,Student,69,Ed Sheeran,69,Playlist 69,69,Song 69,260,185
+70,user70@mail.com,pass70,Student,70,Ed Sheeran,70,Playlist 70,70,Song 70,279,167
+71,user71@mail.com,pass71,Student,71,Imagine Dragons,71,Playlist 71,71,Song 71,206,240
+72,user72@mail.com,pass72,Free,72,Coldplay,72,Playlist 72,72,Song 72,259,153
+73,user73@mail.com,pass73,Premium,73,Ed Sheeran,73,Playlist 73,73,Song 73,227,287
+74,user74@mail.com,pass74,Student,74,Imagine Dragons,74,Playlist 74,74,Song 74,155,274
+75,user75@mail.com,pass75,Family,75,Taylor Swift,75,Playlist 75,75,Song 75,259,204
+76,user76@mail.com,pass76,Premium,76,Ed Sheeran,76,Playlist 76,76,Song 76,144,120
+77,user77@mail.com,pass77,Family,77,Taylor Swift,77,Playlist 77,77,Song 77,122,290
+78,user78@mail.com,pass78,Free,78,Imagine Dragons,78,Playlist 78,78,Song 78,143,34
+79,user79@mail.com,pass79,Family,79,Coldplay,79,Playlist 79,79,Song 79,155,54
+80,user80@mail.com,pass80,Free,80,Coldplay,80,Playlist 80,80,Song 80,200,261
+81,user81@mail.com,pass81,Student,81,Imagine Dragons,81,Playlist 81,81,Song 81,217,41
+82,user82@mail.com,pass82,Family,82,Taylor Swift,82,Playlist 82,82,Song 82,238,238
+83,user83@mail.com,pass83,Family,83,Coldplay,83,Playlist 83,83,Song 83,143,176
+84,user84@mail.com,pass84,Premium,84,Taylor Swift,84,Playlist 84,84,Song 84,154,241
+85,user85@mail.com,pass85,Family,85,Coldplay,85,Playlist 85,85,Song 85,225,182
+86,user86@mail.com,pass86,Free,86,Ed Sheeran,86,Playlist 86,86,Song 86,138,35
+87,user87@mail.com,pass87,Family,87,Ed Sheeran,87,Playlist 87,87,Song 87,292,34
+88,user88@mail.com,pass88,Free,88,Adele,88,Playlist 88,88,Song 88,149,200
+89,user89@mail.com,pass89,Free,89,Coldplay,89,Playlist 89,89,Song 89,226,214
+90,user90@mail.com,pass90,Family,90,Coldplay,90,Playlist 90,90,Song 90,277,214
+91,user91@mail.com,pass91,Premium,91,Taylor Swift,91,Playlist 91,91,Song 91,217,137
+92,user92@mail.com,pass92,Premium,92,Imagine Dragons,92,Playlist 92,92,Song 92,126,151
+93,user93@mail.com,pass93,Premium,93,Taylor Swift,93,Playlist 93,93,Song 93,300,193
+94,user94@mail.com,pass94,Family,94,Adele,94,Playlist 94,94,Song 94,126,216
+95,user95@mail.com,pass95,Free,95,Ed Sheeran,95,Playlist 95,95,Song 95,138,81
+96,user96@mail.com,pass96,Family,96,Imagine Dragons,96,Playlist 96,96,Song 96,278,50
+97,user97@mail.com,pass97,Premium,97,Ed Sheeran,97,Playlist 97,97,Song 97,267,204
+98,user98@mail.com,pass98,Student,98,Imagine Dragons,98,Playlist 98,98,Song 98,179,154
+99,user99@mail.com,pass99,Free,99,Taylor Swift,99,Playlist 99,99,Song 99,224,117
+100,user100@mail.com,pass100,Premium,100,Imagine Dragons,100,Playlist 100,100,Song 100,170,60
+101,user101@mail.com,pass101,Family,101,Adele,101,Playlist 101,101,Song 101,183,69
+102,user102@mail.com,pass102,Premium,102,Adele,102,Playlist 102,102,Song 102,199,88
+103,user103@mail.com,pass103,Student,103,Coldplay,103,Playlist 103,103,Song 103,178,103
+104,user104@mail.com,pass104,Premium,104,Taylor Swift,104,Playlist 104,104,Song 104,297,257
+105,user105@mail.com,pass105,Premium,105,Ed Sheeran,105,Playlist 105,105,Song 105,168,228
+106,user106@mail.com,pass106,Premium,106,Imagine Dragons,106,Playlist 106,106,Song 106,191,36
+107,user107@mail.com,pass107,Free,107,Coldplay,107,Playlist 107,107,Song 107,293,188
+108,user108@mail.com,pass108,Family,108,Coldplay,108,Playlist 108,108,Song 108,218,82
+109,user109@mail.com,pass109,Student,109,Taylor Swift,109,Playlist 109,109,Song 109,123,190
+110,user110@mail.com,pass110,Free,110,Adele,110,Playlist 110,110,Song 110,228,156
+111,user111@mail.com,pass111,Free,111,Adele,111,Playlist 111,111,Song 111,196,203
+112,user112@mail.com,pass112,Student,112,Ed Sheeran,112,Playlist 112,112,Song 112,293,220
+113,user113@mail.com,pass113,Premium,113,Ed Sheeran,113,Playlist 113,113,Song 113,248,141
+114,user114@mail.com,pass114,Premium,114,Imagine Dragons,114,Playlist 114,114,Song 114,130,182
+115,user115@mail.com,pass115,Family,115,Ed Sheeran,115,Playlist 115,115,Song 115,172,280
+116,user116@mail.com,pass116,Premium,116,Coldplay,116,Playlist 116,116,Song 116,173,240
+117,user117@mail.com,pass117,Family,117,Adele,117,Playlist 117,117,Song 117,121,162
+118,user118@mail.com,pass118,Free,118,Imagine Dragons,118,Playlist 118,118,Song 118,295,216
+119,user119@mail.com,pass119,Premium,119,Ed Sheeran,119,Playlist 119,119,Song 119,234,248
+120,user120@mail.com,pass120,Family,120,Imagine Dragons,120,Playlist 120,120,Song 120,157,34
+121,user121@mail.com,pass121,Family,121,Ed Sheeran,121,Playlist 121,121,Song 121,273,204
+122,user122@mail.com,pass122,Free,122,Adele,122,Playlist 122,122,Song 122,140,127
+123,user123@mail.com,pass123,Premium,123,Coldplay,123,Playlist 123,123,Song 123,169,225
+124,user124@mail.com,pass124,Family,124,Adele,124,Playlist 124,124,Song 124,152,113
+125,user125@mail.com,pass125,Family,125,Taylor Swift,125,Playlist 125,125,Song 125,282,297
+126,user126@mail.com,pass126,Free,126,Taylor Swift,126,Playlist 126,126,Song 126,262,226
+127,user127@mail.com,pass127,Free,127,Imagine Dragons,127,Playlist 127,127,Song 127,134,61
+128,user128@mail.com,pass128,Premium,128,Coldplay,128,Playlist 128,128,Song 128,161,199
+129,user129@mail.com,pass129,Premium,129,Taylor Swift,129,Playlist 129,129,Song 129,199,249
+130,user130@mail.com,pass130,Free,130,Ed Sheeran,130,Playlist 130,130,Song 130,176,219
+131,user131@mail.com,pass131,Student,131,Imagine Dragons,131,Playlist 131,131,Song 131,253,152
+132,user132@mail.com,pass132,Free,132,Adele,132,Playlist 132,132,Song 132,220,62
+133,user133@mail.com,pass133,Family,133,Coldplay,133,Playlist 133,133,Song 133,149,298
+134,user134@mail.com,pass134,Student,134,Imagine Dragons,134,Playlist 134,134,Song 134,228,112
+135,user135@mail.com,pass135,Family,135,Adele,135,Playlist 135,135,Song 135,249,130
+136,user136@mail.com,pass136,Premium,136,Imagine Dragons,136,Playlist 136,136,Song 136,132,278
+137,user137@mail.com,pass137,Premium,137,Taylor Swift,137,Playlist 137,137,Song 137,258,81
+138,user138@mail.com,pass138,Family,138,Coldplay,138,Playlist 138,138,Song 138,155,160
+139,user139@mail.com,pass139,Premium,139,Ed Sheeran,139,Playlist 139,139,Song 139,299,89
+140,user140@mail.com,pass140,Family,140,Imagine Dragons,140,Playlist 140,140,Song 140,245,103
+141,user141@mail.com,pass141,Student,141,Ed Sheeran,141,Playlist 141,141,Song 141,297,96
+142,user142@mail.com,pass142,Premium,142,Ed Sheeran,142,Playlist 142,142,Song 142,195,34
+143,user143@mail.com,pass143,Family,143,Ed Sheeran,143,Playlist 143,143,Song 143,158,153
+144,user144@mail.com,pass144,Premium,144,Adele,144,Playlist 144,144,Song 144,265,99
+145,user145@mail.com,pass145,Premium,145,Coldplay,145,Playlist 145,145,Song 145,283,101
+146,user146@mail.com,pass146,Family,146,Taylor Swift,146,Playlist 146,146,Song 146,273,167
+147,user147@mail.com,pass147,Family,147,Adele,147,Playlist 147,147,Song 147,150,96
+148,user148@mail.com,pass148,Premium,148,Taylor Swift,148,Playlist 148,148,Song 148,218,180
+149,user149@mail.com,pass149,Family,149,Coldplay,149,Playlist 149,149,Song 149,152,76
+150,user150@mail.com,pass150,Premium,150,Taylor Swift,150,Playlist 150,150,Song 150,300,296
+151,user151@mail.com,pass151,Family,151,Imagine Dragons,151,Playlist 151,151,Song 151,231,73
+152,user152@mail.com,pass152,Free,152,Coldplay,152,Playlist 152,152,Song 152,209,116
+153,user153@mail.com,pass153,Family,153,Ed Sheeran,153,Playlist 153,153,Song 153,167,73
+154,user154@mail.com,pass154,Student,154,Adele,154,Playlist 154,154,Song 154,190,131
+155,user155@mail.com,pass155,Premium,155,Imagine Dragons,155,Playlist 155,155,Song 155,185,194
+156,user156@mail.com,pass156,Free,156,Coldplay,156,Playlist 156,156,Song 156,192,45
+157,user157@mail.com,pass157,Free,157,Adele,157,Playlist 157,157,Song 157,127,110
+158,user158@mail.com,pass158,Premium,158,Adele,158,Playlist 158,158,Song 158,283,54
+159,user159@mail.com,pass159,Student,159,Taylor Swift,159,Playlist 159,159,Song 159,252,93
+160,user160@mail.com,pass160,Student,160,Taylor Swift,160,Playlist 160,160,Song 160,176,198
+161,user161@mail.com,pass161,Student,161,Imagine Dragons,161,Playlist 161,161,Song 161,185,126
+162,user162@mail.com,pass162,Student,162,Imagine Dragons,162,Playlist 162,162,Song 162,165,270
+163,user163@mail.com,pass163,Student,163,Ed Sheeran,163,Playlist 163,163,Song 163,235,126
+164,user164@mail.com,pass164,Free,164,Ed Sheeran,164,Playlist 164,164,Song 164,233,223
+165,user165@mail.com,pass165,Premium,165,Imagine Dragons,165,Playlist 165,165,Song 165,188,164
+166,user166@mail.com,pass166,Family,166,Taylor Swift,166,Playlist 166,166,Song 166,292,76
+167,user167@mail.com,pass167,Student,167,Ed Sheeran,167,Playlist 167,167,Song 167,257,159
+168,user168@mail.com,pass168,Family,168,Ed Sheeran,168,Playlist 168,168,Song 168,300,135
+169,user169@mail.com,pass169,Premium,169,Ed Sheeran,169,Playlist 169,169,Song 169,225,197
+170,user170@mail.com,pass170,Student,170,Taylor Swift,170,Playlist 170,170,Song 170,273,275
+171,user171@mail.com,pass171,Family,171,Imagine Dragons,171,Playlist 171,171,Song 171,191,180
+172,user172@mail.com,pass172,Free,172,Ed Sheeran,172,Playlist 172,172,Song 172,291,221
+173,user173@mail.com,pass173,Family,173,Imagine Dragons,173,Playlist 173,173,Song 173,188,211
+174,user174@mail.com,pass174,Premium,174,Ed Sheeran,174,Playlist 174,174,Song 174,123,182
+175,user175@mail.com,pass175,Family,175,Coldplay,175,Playlist 175,175,Song 175,122,238
+176,user176@mail.com,pass176,Premium,176,Ed Sheeran,176,Playlist 176,176,Song 176,146,299
+177,user177@mail.com,pass177,Premium,177,Taylor Swift,177,Playlist 177,177,Song 177,170,112
+178,user178@mail.com,pass178,Free,178,Adele,178,Playlist 178,178,Song 178,251,100
+179,user179@mail.com,pass179,Family,179,Adele,179,Playlist 179,179,Song 179,242,229
+180,user180@mail.com,pass180,Premium,180,Adele,180,Playlist 180,180,Song 180,281,195
+181,user181@mail.com,pass181,Student,181,Adele,181,Playlist 181,181,Song 181,189,125
+182,user182@mail.com,pass182,Free,182,Adele,182,Playlist 182,182,Song 182,141,73
+183,user183@mail.com,pass183,Student,183,Adele,183,Playlist 183,183,Song 183,263,128
+184,user184@mail.com,pass184,Family,184,Taylor Swift,184,Playlist 184,184,Song 184,291,284
+185,user185@mail.com,pass185,Family,185,Coldplay,185,Playlist 185,185,Song 185,140,202
+186,user186@mail.com,pass186,Family,186,Ed Sheeran,186,Playlist 186,186,Song 186,291,207
+187,user187@mail.com,pass187,Family,187,Adele,187,Playlist 187,187,Song 187,245,55
+188,user188@mail.com,pass188,Premium,188,Coldplay,188,Playlist 188,188,Song 188,131,152
+189,user189@mail.com,pass189,Family,189,Coldplay,189,Playlist 189,189,Song 189,265,192
+190,user190@mail.com,pass190,Family,190,Ed Sheeran,190,Playlist 190,190,Song 190,286,185
+191,user191@mail.com,pass191,Free,191,Ed Sheeran,191,Playlist 191,191,Song 191,274,292
+192,user192@mail.com,pass192,Family,192,Adele,192,Playlist 192,192,Song 192,190,280
+193,user193@mail.com,pass193,Free,193,Imagine Dragons,193,Playlist 193,193,Song 193,180,35
+194,user194@mail.com,pass194,Free,194,Coldplay,194,Playlist 194,194,Song 194,173,264
+195,user195@mail.com,pass195,Family,195,Taylor Swift,195,Playlist 195,195,Song 195,133,202
+196,user196@mail.com,pass196,Family,196,Adele,196,Playlist 196,196,Song 196,282,76
+197,user197@mail.com,pass197,Free,197,Taylor Swift,197,Playlist 197,197,Song 197,138,47
+198,user198@mail.com,pass198,Premium,198,Adele,198,Playlist 198,198,Song 198,290,187
+199,user199@mail.com,pass199,Student,199,Taylor Swift,199,Playlist 199,199,Song 199,261,159
+200,user200@mail.com,pass200,Family,200,Adele,200,Playlist 200,200,Song 200,253,152
+201,user201@mail.com,pass201,Premium,201,Ed Sheeran,201,Playlist 201,201,Song 201,223,123
+202,user202@mail.com,pass202,Free,202,Taylor Swift,202,Playlist 202,202,Song 202,134,118
+203,user203@mail.com,pass203,Family,203,Ed Sheeran,203,Playlist 203,203,Song 203,293,87
+204,user204@mail.com,pass204,Premium,204,Ed Sheeran,204,Playlist 204,204,Song 204,157,98
+205,user205@mail.com,pass205,Free,205,Adele,205,Playlist 205,205,Song 205,205,178
+206,user206@mail.com,pass206,Student,206,Adele,206,Playlist 206,206,Song 206,127,209
+207,user207@mail.com,pass207,Family,207,Adele,207,Playlist 207,207,Song 207,211,80
+208,user208@mail.com,pass208,Premium,208,Adele,208,Playlist 208,208,Song 208,289,59
+209,user209@mail.com,pass209,Family,209,Taylor Swift,209,Playlist 209,209,Song 209,135,145
+210,user210@mail.com,pass210,Family,210,Coldplay,210,Playlist 210,210,Song 210,173,50
+211,user211@mail.com,pass211,Family,211,Coldplay,211,Playlist 211,211,Song 211,245,76
+212,user212@mail.com,pass212,Premium,212,Ed Sheeran,212,Playlist 212,212,Song 212,162,84
+213,user213@mail.com,pass213,Student,213,Coldplay,213,Playlist 213,213,Song 213,120,147
+214,user214@mail.com,pass214,Premium,214,Adele,214,Playlist 214,214,Song 214,254,31
+215,user215@mail.com,pass215,Student,215,Taylor Swift,215,Playlist 215,215,Song 215,161,203
+216,user216@mail.com,pass216,Free,216,Ed Sheeran,216,Playlist 216,216,Song 216,257,54
+217,user217@mail.com,pass217,Family,217,Imagine Dragons,217,Playlist 217,217,Song 217,159,102
+218,user218@mail.com,pass218,Student,218,Adele,218,Playlist 218,218,Song 218,249,239
+219,user219@mail.com,pass219,Free,219,Coldplay,219,Playlist 219,219,Song 219,184,238
+220,user220@mail.com,pass220,Premium,220,Adele,220,Playlist 220,220,Song 220,289,134
+221,user221@mail.com,pass221,Free,221,Taylor Swift,221,Playlist 221,221,Song 221,286,250
+222,user222@mail.com,pass222,Student,222,Imagine Dragons,222,Playlist 222,222,Song 222,236,186
+223,user223@mail.com,pass223,Family,223,Imagine Dragons,223,Playlist 223,223,Song 223,256,174
+224,user224@mail.com,pass224,Student,224,Imagine Dragons,224,Playlist 224,224,Song 224,255,136
+225,user225@mail.com,pass225,Premium,225,Imagine Dragons,225,Playlist 225,225,Song 225,146,183
+226,user226@mail.com,pass226,Student,226,Adele,226,Playlist 226,226,Song 226,260,282
+227,user227@mail.com,pass227,Family,227,Imagine Dragons,227,Playlist 227,227,Song 227,126,54
+228,user228@mail.com,pass228,Family,228,Imagine Dragons,228,Playlist 228,228,Song 228,256,139
+229,user229@mail.com,pass229,Free,229,Coldplay,229,Playlist 229,229,Song 229,163,129
+230,user230@mail.com,pass230,Free,230,Adele,230,Playlist 230,230,Song 230,206,255
+231,user231@mail.com,pass231,Premium,231,Adele,231,Playlist 231,231,Song 231,183,125
+232,user232@mail.com,pass232,Free,232,Taylor Swift,232,Playlist 232,232,Song 232,286,230
+233,user233@mail.com,pass233,Premium,233,Imagine Dragons,233,Playlist 233,233,Song 233,243,52
+234,user234@mail.com,pass234,Free,234,Ed Sheeran,234,Playlist 234,234,Song 234,166,233
+235,user235@mail.com,pass235,Free,235,Adele,235,Playlist 235,235,Song 235,263,121
+236,user236@mail.com,pass236,Premium,236,Ed Sheeran,236,Playlist 236,236,Song 236,246,270
+237,user237@mail.com,pass237,Free,237,Taylor Swift,237,Playlist 237,237,Song 237,186,214
+238,user238@mail.com,pass238,Free,238,Ed Sheeran,238,Playlist 238,238,Song 238,218,31
+239,user239@mail.com,pass239,Family,239,Ed Sheeran,239,Playlist 239,239,Song 239,281,54
+240,user240@mail.com,pass240,Student,240,Coldplay,240,Playlist 240,240,Song 240,278,78
+241,user241@mail.com,pass241,Family,241,Imagine Dragons,241,Playlist 241,241,Song 241,275,86
+242,user242@mail.com,pass242,Premium,242,Coldplay,242,Playlist 242,242,Song 242,149,154
+243,user243@mail.com,pass243,Family,243,Adele,243,Playlist 243,243,Song 243,290,128
+244,user244@mail.com,pass244,Student,244,Imagine Dragons,244,Playlist 244,244,Song 244,225,127
+245,user245@mail.com,pass245,Student,245,Imagine Dragons,245,Playlist 245,245,Song 245,245,35
+246,user246@mail.com,pass246,Family,246,Imagine Dragons,246,Playlist 246,246,Song 246,292,136
+247,user247@mail.com,pass247,Premium,247,Coldplay,247,Playlist 247,247,Song 247,294,48
+248,user248@mail.com,pass248,Free,248,Coldplay,248,Playlist 248,248,Song 248,129,271
+249,user249@mail.com,pass249,Student,249,Ed Sheeran,249,Playlist 249,249,Song 249,281,138
+250,user250@mail.com,pass250,Family,250,Taylor Swift,250,Playlist 250,250,Song 250,173,53
+251,user251@mail.com,pass251,Family,251,Adele,251,Playlist 251,251,Song 251,196,107
+252,user252@mail.com,pass252,Premium,252,Coldplay,252,Playlist 252,252,Song 252,249,213
+253,user253@mail.com,pass253,Premium,253,Coldplay,253,Playlist 253,253,Song 253,154,58
+254,user254@mail.com,pass254,Family,254,Taylor Swift,254,Playlist 254,254,Song 254,228,106
+255,user255@mail.com,pass255,Student,255,Coldplay,255,Playlist 255,255,Song 255,213,219
+256,user256@mail.com,pass256,Family,256,Taylor Swift,256,Playlist 256,256,Song 256,137,50
+257,user257@mail.com,pass257,Premium,257,Taylor Swift,257,Playlist 257,257,Song 257,147,174
+258,user258@mail.com,pass258,Premium,258,Ed Sheeran,258,Playlist 258,258,Song 258,127,165
+259,user259@mail.com,pass259,Student,259,Coldplay,259,Playlist 259,259,Song 259,219,232
+260,user260@mail.com,pass260,Premium,260,Coldplay,260,Playlist 260,260,Song 260,271,215
+261,user261@mail.com,pass261,Family,261,Coldplay,261,Playlist 261,261,Song 261,192,45
+262,user262@mail.com,pass262,Premium,262,Coldplay,262,Playlist 262,262,Song 262,252,172
+263,user263@mail.com,pass263,Premium,263,Imagine Dragons,263,Playlist 263,263,Song 263,204,83
+264,user264@mail.com,pass264,Premium,264,Taylor Swift,264,Playlist 264,264,Song 264,283,295
+265,user265@mail.com,pass265,Free,265,Coldplay,265,Playlist 265,265,Song 265,286,36
+266,user266@mail.com,pass266,Family,266,Coldplay,266,Playlist 266,266,Song 266,219,227
+267,user267@mail.com,pass267,Family,267,Imagine Dragons,267,Playlist 267,267,Song 267,162,200
+268,user268@mail.com,pass268,Free,268,Taylor Swift,268,Playlist 268,268,Song 268,172,129
+269,user269@mail.com,pass269,Premium,269,Imagine Dragons,269,Playlist 269,269,Song 269,262,224
+270,user270@mail.com,pass270,Student,270,Ed Sheeran,270,Playlist 270,270,Song 270,288,66
+271,user271@mail.com,pass271,Student,271,Coldplay,271,Playlist 271,271,Song 271,245,186
+272,user272@mail.com,pass272,Free,272,Adele,272,Playlist 272,272,Song 272,158,53
+273,user273@mail.com,pass273,Free,273,Taylor Swift,273,Playlist 273,273,Song 273,259,164
+274,user274@mail.com,pass274,Family,274,Ed Sheeran,274,Playlist 274,274,Song 274,176,60
+275,user275@mail.com,pass275,Premium,275,Ed Sheeran,275,Playlist 275,275,Song 275,179,178
+276,user276@mail.com,pass276,Student,276,Ed Sheeran,276,Playlist 276,276,Song 276,173,213
+277,user277@mail.com,pass277,Family,277,Imagine Dragons,277,Playlist 277,277,Song 277,144,268
+278,user278@mail.com,pass278,Student,278,Ed Sheeran,278,Playlist 278,278,Song 278,279,185
+279,user279@mail.com,pass279,Premium,279,Adele,279,Playlist 279,279,Song 279,276,63
+280,user280@mail.com,pass280,Family,280,Imagine Dragons,280,Playlist 280,280,Song 280,123,294
+281,user281@mail.com,pass281,Family,281,Imagine Dragons,281,Playlist 281,281,Song 281,279,285
+282,user282@mail.com,pass282,Premium,282,Imagine Dragons,282,Playlist 282,282,Song 282,232,141
+283,user283@mail.com,pass283,Free,283,Taylor Swift,283,Playlist 283,283,Song 283,278,299
+284,user284@mail.com,pass284,Premium,284,Adele,284,Playlist 284,284,Song 284,181,42
+285,user285@mail.com,pass285,Family,285,Imagine Dragons,285,Playlist 285,285,Song 285,161,153
+286,user286@mail.com,pass286,Premium,286,Adele,286,Playlist 286,286,Song 286,142,185
+287,user287@mail.com,pass287,Free,287,Taylor Swift,287,Playlist 287,287,Song 287,254,176
+288,user288@mail.com,pass288,Student,288,Coldplay,288,Playlist 288,288,Song 288,294,104
+289,user289@mail.com,pass289,Free,289,Taylor Swift,289,Playlist 289,289,Song 289,202,274
+290,user290@mail.com,pass290,Free,290,Adele,290,Playlist 290,290,Song 290,174,78
+291,user291@mail.com,pass291,Family,291,Coldplay,291,Playlist 291,291,Song 291,259,282
+292,user292@mail.com,pass292,Student,292,Imagine Dragons,292,Playlist 292,292,Song 292,258,73
+293,user293@mail.com,pass293,Premium,293,Adele,293,Playlist 293,293,Song 293,205,202
+294,user294@mail.com,pass294,Family,294,Ed Sheeran,294,Playlist 294,294,Song 294,290,296
+295,user295@mail.com,pass295,Premium,295,Imagine Dragons,295,Playlist 295,295,Song 295,224,213
+296,user296@mail.com,pass296,Premium,296,Adele,296,Playlist 296,296,Song 296,188,175
+297,user297@mail.com,pass297,Family,297,Coldplay,297,Playlist 297,297,Song 297,264,294
+298,user298@mail.com,pass298,Free,298,Ed Sheeran,298,Playlist 298,298,Song 298,223,268
+299,user299@mail.com,pass299,Free,299,Adele,299,Playlist 299,299,Song 299,240,176
+300,user300@mail.com,pass300,Premium,300,Taylor Swift,300,Playlist 300,300,Song 300,231,129
+301,user301@mail.com,pass301,Family,301,Imagine Dragons,301,Playlist 301,301,Song 301,244,101
+302,user302@mail.com,pass302,Free,302,Coldplay,302,Playlist 302,302,Song 302,173,269
+303,user303@mail.com,pass303,Family,303,Ed Sheeran,303,Playlist 303,303,Song 303,179,230
+304,user304@mail.com,pass304,Family,304,Ed Sheeran,304,Playlist 304,304,Song 304,229,88
+305,user305@mail.com,pass305,Free,305,Taylor Swift,305,Playlist 305,305,Song 305,178,232
+306,user306@mail.com,pass306,Student,306,Coldplay,306,Playlist 306,306,Song 306,143,288
+307,user307@mail.com,pass307,Premium,307,Imagine Dragons,307,Playlist 307,307,Song 307,286,269
+308,user308@mail.com,pass308,Student,308,Taylor Swift,308,Playlist 308,308,Song 308,168,123
+309,user309@mail.com,pass309,Student,309,Coldplay,309,Playlist 309,309,Song 309,208,220
+310,user310@mail.com,pass310,Student,310,Ed Sheeran,310,Playlist 310,310,Song 310,131,167
+311,user311@mail.com,pass311,Student,311,Ed Sheeran,311,Playlist 311,311,Song 311,180,285
+312,user312@mail.com,pass312,Premium,312,Ed Sheeran,312,Playlist 312,312,Song 312,266,122
+313,user313@mail.com,pass313,Student,313,Ed Sheeran,313,Playlist 313,313,Song 313,195,53
+314,user314@mail.com,pass314,Family,314,Adele,314,Playlist 314,314,Song 314,283,124
+315,user315@mail.com,pass315,Student,315,Ed Sheeran,315,Playlist 315,315,Song 315,289,49
+316,user316@mail.com,pass316,Family,316,Adele,316,Playlist 316,316,Song 316,195,79
+317,user317@mail.com,pass317,Premium,317,Adele,317,Playlist 317,317,Song 317,221,260
+318,user318@mail.com,pass318,Free,318,Ed Sheeran,318,Playlist 318,318,Song 318,170,298
+319,user319@mail.com,pass319,Student,319,Adele,319,Playlist 319,319,Song 319,204,51
+320,user320@mail.com,pass320,Free,320,Adele,320,Playlist 320,320,Song 320,220,231
+321,user321@mail.com,pass321,Free,321,Adele,321,Playlist 321,321,Song 321,274,241
+322,user322@mail.com,pass322,Student,322,Coldplay,322,Playlist 322,322,Song 322,162,249
+323,user323@mail.com,pass323,Premium,323,Ed Sheeran,323,Playlist 323,323,Song 323,246,74
+324,user324@mail.com,pass324,Family,324,Imagine Dragons,324,Playlist 324,324,Song 324,158,201
+325,user325@mail.com,pass325,Family,325,Taylor Swift,325,Playlist 325,325,Song 325,275,136
+326,user326@mail.com,pass326,Free,326,Adele,326,Playlist 326,326,Song 326,196,207
+327,user327@mail.com,pass327,Student,327,Ed Sheeran,327,Playlist 327,327,Song 327,173,108
+328,user328@mail.com,pass328,Student,328,Adele,328,Playlist 328,328,Song 328,240,113
+329,user329@mail.com,pass329,Family,329,Taylor Swift,329,Playlist 329,329,Song 329,123,35
+330,user330@mail.com,pass330,Premium,330,Taylor Swift,330,Playlist 330,330,Song 330,278,226
+331,user331@mail.com,pass331,Family,331,Coldplay,331,Playlist 331,331,Song 331,171,238
+332,user332@mail.com,pass332,Free,332,Ed Sheeran,332,Playlist 332,332,Song 332,130,68
+333,user333@mail.com,pass333,Premium,333,Coldplay,333,Playlist 333,333,Song 333,139,97
+334,user334@mail.com,pass334,Student,334,Imagine Dragons,334,Playlist 334,334,Song 334,174,188
+335,user335@mail.com,pass335,Premium,335,Coldplay,335,Playlist 335,335,Song 335,150,283
+336,user336@mail.com,pass336,Student,336,Taylor Swift,336,Playlist 336,336,Song 336,132,74
+337,user337@mail.com,pass337,Free,337,Imagine Dragons,337,Playlist 337,337,Song 337,262,83
+338,user338@mail.com,pass338,Family,338,Ed Sheeran,338,Playlist 338,338,Song 338,277,237
+339,user339@mail.com,pass339,Student,339,Taylor Swift,339,Playlist 339,339,Song 339,232,119
+340,user340@mail.com,pass340,Free,340,Taylor Swift,340,Playlist 340,340,Song 340,212,180
+341,user341@mail.com,pass341,Student,341,Imagine Dragons,341,Playlist 341,341,Song 341,166,278
+342,user342@mail.com,pass342,Premium,342,Taylor Swift,342,Playlist 342,342,Song 342,291,54
+343,user343@mail.com,pass343,Student,343,Ed Sheeran,343,Playlist 343,343,Song 343,122,176
+344,user344@mail.com,pass344,Student,344,Coldplay,344,Playlist 344,344,Song 344,121,275
+345,user345@mail.com,pass345,Free,345,Coldplay,345,Playlist 345,345,Song 345,168,64
+346,user346@mail.com,pass346,Student,346,Taylor Swift,346,Playlist 346,346,Song 346,237,260
+347,user347@mail.com,pass347,Premium,347,Coldplay,347,Playlist 347,347,Song 347,196,253
+348,user348@mail.com,pass348,Free,348,Coldplay,348,Playlist 348,348,Song 348,248,42
+349,user349@mail.com,pass349,Free,349,Adele,349,Playlist 349,349,Song 349,162,142
+350,user350@mail.com,pass350,Premium,350,Imagine Dragons,350,Playlist 350,350,Song 350,215,164
+351,user351@mail.com,pass351,Free,351,Imagine Dragons,351,Playlist 351,351,Song 351,172,198
+352,user352@mail.com,pass352,Premium,352,Taylor Swift,352,Playlist 352,352,Song 352,170,296
+353,user353@mail.com,pass353,Student,353,Imagine Dragons,353,Playlist 353,353,Song 353,218,79
+354,user354@mail.com,pass354,Free,354,Ed Sheeran,354,Playlist 354,354,Song 354,131,73
+355,user355@mail.com,pass355,Free,355,Taylor Swift,355,Playlist 355,355,Song 355,177,269
+356,user356@mail.com,pass356,Student,356,Imagine Dragons,356,Playlist 356,356,Song 356,294,211
+357,user357@mail.com,pass357,Free,357,Imagine Dragons,357,Playlist 357,357,Song 357,292,88
+358,user358@mail.com,pass358,Family,358,Imagine Dragons,358,Playlist 358,358,Song 358,158,155
+359,user359@mail.com,pass359,Free,359,Coldplay,359,Playlist 359,359,Song 359,198,224
+360,user360@mail.com,pass360,Student,360,Imagine Dragons,360,Playlist 360,360,Song 360,229,110
+361,user361@mail.com,pass361,Family,361,Coldplay,361,Playlist 361,361,Song 361,266,250
+362,user362@mail.com,pass362,Student,362,Ed Sheeran,362,Playlist 362,362,Song 362,208,52
+363,user363@mail.com,pass363,Free,363,Adele,363,Playlist 363,363,Song 363,298,178
+364,user364@mail.com,pass364,Free,364,Adele,364,Playlist 364,364,Song 364,208,155
+365,user365@mail.com,pass365,Family,365,Adele,365,Playlist 365,365,Song 365,298,293
+366,user366@mail.com,pass366,Premium,366,Taylor Swift,366,Playlist 366,366,Song 366,207,30
+367,user367@mail.com,pass367,Free,367,Ed Sheeran,367,Playlist 367,367,Song 367,185,297
+368,user368@mail.com,pass368,Student,368,Imagine Dragons,368,Playlist 368,368,Song 368,282,56
+369,user369@mail.com,pass369,Premium,369,Coldplay,369,Playlist 369,369,Song 369,128,132
+370,user370@mail.com,pass370,Premium,370,Imagine Dragons,370,Playlist 370,370,Song 370,287,154
+371,user371@mail.com,pass371,Premium,371,Imagine Dragons,371,Playlist 371,371,Song 371,192,63
+372,user372@mail.com,pass372,Student,372,Adele,372,Playlist 372,372,Song 372,177,220
+373,user373@mail.com,pass373,Student,373,Adele,373,Playlist 373,373,Song 373,258,236
+374,user374@mail.com,pass374,Premium,374,Ed Sheeran,374,Playlist 374,374,Song 374,270,64
+375,user375@mail.com,pass375,Student,375,Coldplay,375,Playlist 375,375,Song 375,159,44
+376,user376@mail.com,pass376,Free,376,Ed Sheeran,376,Playlist 376,376,Song 376,249,68
+377,user377@mail.com,pass377,Family,377,Taylor Swift,377,Playlist 377,377,Song 377,166,225
+378,user378@mail.com,pass378,Student,378,Coldplay,378,Playlist 378,378,Song 378,210,284
+379,user379@mail.com,pass379,Premium,379,Adele,379,Playlist 379,379,Song 379,250,162
+380,user380@mail.com,pass380,Premium,380,Taylor Swift,380,Playlist 380,380,Song 380,262,130
+381,user381@mail.com,pass381,Premium,381,Ed Sheeran,381,Playlist 381,381,Song 381,276,218
+382,user382@mail.com,pass382,Family,382,Imagine Dragons,382,Playlist 382,382,Song 382,267,214
+383,user383@mail.com,pass383,Student,383,Ed Sheeran,383,Playlist 383,383,Song 383,188,244
+384,user384@mail.com,pass384,Family,384,Adele,384,Playlist 384,384,Song 384,226,131
+385,user385@mail.com,pass385,Family,385,Coldplay,385,Playlist 385,385,Song 385,256,286
+386,user386@mail.com,pass386,Family,386,Imagine Dragons,386,Playlist 386,386,Song 386,175,209
+387,user387@mail.com,pass387,Free,387,Imagine Dragons,387,Playlist 387,387,Song 387,195,189
+388,user388@mail.com,pass388,Free,388,Adele,388,Playlist 388,388,Song 388,194,142
+389,user389@mail.com,pass389,Student,389,Imagine Dragons,389,Playlist 389,389,Song 389,135,124
+390,user390@mail.com,pass390,Student,390,Taylor Swift,390,Playlist 390,390,Song 390,169,92
+391,user391@mail.com,pass391,Student,391,Ed Sheeran,391,Playlist 391,391,Song 391,162,289
+392,user392@mail.com,pass392,Free,392,Coldplay,392,Playlist 392,392,Song 392,217,249
+393,user393@mail.com,pass393,Free,393,Taylor Swift,393,Playlist 393,393,Song 393,221,125
+394,user394@mail.com,pass394,Premium,394,Coldplay,394,Playlist 394,394,Song 394,239,61
+395,user395@mail.com,pass395,Family,395,Taylor Swift,395,Playlist 395,395,Song 395,202,293
+396,user396@mail.com,pass396,Family,396,Coldplay,396,Playlist 396,396,Song 396,162,91
+397,user397@mail.com,pass397,Premium,397,Imagine Dragons,397,Playlist 397,397,Song 397,241,288
+398,user398@mail.com,pass398,Premium,398,Taylor Swift,398,Playlist 398,398,Song 398,294,191
+399,user399@mail.com,pass399,Free,399,Imagine Dragons,399,Playlist 399,399,Song 399,257,259
+400,user400@mail.com,pass400,Student,400,Ed Sheeran,400,Playlist 400,400,Song 400,273,38
+401,user401@mail.com,pass401,Student,401,Imagine Dragons,401,Playlist 401,401,Song 401,222,76
+402,user402@mail.com,pass402,Student,402,Imagine Dragons,402,Playlist 402,402,Song 402,128,216
+403,user403@mail.com,pass403,Family,403,Ed Sheeran,403,Playlist 403,403,Song 403,190,101
+404,user404@mail.com,pass404,Free,404,Coldplay,404,Playlist 404,404,Song 404,283,231
+405,user405@mail.com,pass405,Premium,405,Taylor Swift,405,Playlist 405,405,Song 405,180,84
+406,user406@mail.com,pass406,Free,406,Ed Sheeran,406,Playlist 406,406,Song 406,250,244
+407,user407@mail.com,pass407,Family,407,Ed Sheeran,407,Playlist 407,407,Song 407,211,274
+408,user408@mail.com,pass408,Family,408,Imagine Dragons,408,Playlist 408,408,Song 408,291,112
+409,user409@mail.com,pass409,Family,409,Ed Sheeran,409,Playlist 409,409,Song 409,261,300
+410,user410@mail.com,pass410,Student,410,Adele,410,Playlist 410,410,Song 410,223,201
+411,user411@mail.com,pass411,Family,411,Ed Sheeran,411,Playlist 411,411,Song 411,196,201
+412,user412@mail.com,pass412,Premium,412,Imagine Dragons,412,Playlist 412,412,Song 412,209,69
+413,user413@mail.com,pass413,Family,413,Imagine Dragons,413,Playlist 413,413,Song 413,157,154
+414,user414@mail.com,pass414,Premium,414,Coldplay,414,Playlist 414,414,Song 414,123,267
+415,user415@mail.com,pass415,Premium,415,Coldplay,415,Playlist 415,415,Song 415,214,36
+416,user416@mail.com,pass416,Family,416,Adele,416,Playlist 416,416,Song 416,277,160
+417,user417@mail.com,pass417,Student,417,Taylor Swift,417,Playlist 417,417,Song 417,282,49
+418,user418@mail.com,pass418,Family,418,Coldplay,418,Playlist 418,418,Song 418,203,80
+419,user419@mail.com,pass419,Premium,419,Ed Sheeran,419,Playlist 419,419,Song 419,280,239
+420,user420@mail.com,pass420,Free,420,Adele,420,Playlist 420,420,Song 420,156,255
+421,user421@mail.com,pass421,Premium,421,Taylor Swift,421,Playlist 421,421,Song 421,263,288
+422,user422@mail.com,pass422,Student,422,Ed Sheeran,422,Playlist 422,422,Song 422,248,62
+423,user423@mail.com,pass423,Free,423,Taylor Swift,423,Playlist 423,423,Song 423,155,88
+424,user424@mail.com,pass424,Premium,424,Ed Sheeran,424,Playlist 424,424,Song 424,221,56
+425,user425@mail.com,pass425,Free,425,Coldplay,425,Playlist 425,425,Song 425,171,158
+426,user426@mail.com,pass426,Premium,426,Ed Sheeran,426,Playlist 426,426,Song 426,175,263
+427,user427@mail.com,pass427,Student,427,Coldplay,427,Playlist 427,427,Song 427,277,145
+428,user428@mail.com,pass428,Family,428,Ed Sheeran,428,Playlist 428,428,Song 428,210,43
+429,user429@mail.com,pass429,Free,429,Ed Sheeran,429,Playlist 429,429,Song 429,269,31
+430,user430@mail.com,pass430,Premium,430,Imagine Dragons,430,Playlist 430,430,Song 430,246,63
+431,user431@mail.com,pass431,Premium,431,Imagine Dragons,431,Playlist 431,431,Song 431,277,181
+432,user432@mail.com,pass432,Free,432,Taylor Swift,432,Playlist 432,432,Song 432,152,204
+433,user433@mail.com,pass433,Family,433,Coldplay,433,Playlist 433,433,Song 433,293,90
+434,user434@mail.com,pass434,Student,434,Ed Sheeran,434,Playlist 434,434,Song 434,274,30
+435,user435@mail.com,pass435,Family,435,Coldplay,435,Playlist 435,435,Song 435,210,91
+436,user436@mail.com,pass436,Premium,436,Ed Sheeran,436,Playlist 436,436,Song 436,262,85
+437,user437@mail.com,pass437,Student,437,Taylor Swift,437,Playlist 437,437,Song 437,255,30
+438,user438@mail.com,pass438,Family,438,Coldplay,438,Playlist 438,438,Song 438,241,156
+439,user439@mail.com,pass439,Premium,439,Imagine Dragons,439,Playlist 439,439,Song 439,120,280
+440,user440@mail.com,pass440,Family,440,Ed Sheeran,440,Playlist 440,440,Song 440,126,62
+441,user441@mail.com,pass441,Student,441,Imagine Dragons,441,Playlist 441,441,Song 441,191,115
+442,user442@mail.com,pass442,Student,442,Coldplay,442,Playlist 442,442,Song 442,247,170
+443,user443@mail.com,pass443,Free,443,Adele,443,Playlist 443,443,Song 443,253,259
+444,user444@mail.com,pass444,Student,444,Imagine Dragons,444,Playlist 444,444,Song 444,274,99
+445,user445@mail.com,pass445,Student,445,Taylor Swift,445,Playlist 445,445,Song 445,120,110
+446,user446@mail.com,pass446,Free,446,Adele,446,Playlist 446,446,Song 446,136,54
+447,user447@mail.com,pass447,Student,447,Ed Sheeran,447,Playlist 447,447,Song 447,198,103
+448,user448@mail.com,pass448,Premium,448,Ed Sheeran,448,Playlist 448,448,Song 448,169,114
+449,user449@mail.com,pass449,Family,449,Imagine Dragons,449,Playlist 449,449,Song 449,141,203
+450,user450@mail.com,pass450,Student,450,Imagine Dragons,450,Playlist 450,450,Song 450,208,64
+451,user451@mail.com,pass451,Student,451,Coldplay,451,Playlist 451,451,Song 451,299,271
+452,user452@mail.com,pass452,Free,452,Adele,452,Playlist 452,452,Song 452,144,80
+453,user453@mail.com,pass453,Student,453,Taylor Swift,453,Playlist 453,453,Song 453,214,224
+454,user454@mail.com,pass454,Student,454,Imagine Dragons,454,Playlist 454,454,Song 454,217,212
+455,user455@mail.com,pass455,Free,455,Ed Sheeran,455,Playlist 455,455,Song 455,126,230
+456,user456@mail.com,pass456,Family,456,Coldplay,456,Playlist 456,456,Song 456,196,135
+457,user457@mail.com,pass457,Student,457,Adele,457,Playlist 457,457,Song 457,129,191
+458,user458@mail.com,pass458,Student,458,Adele,458,Playlist 458,458,Song 458,214,286
+459,user459@mail.com,pass459,Free,459,Imagine Dragons,459,Playlist 459,459,Song 459,242,180
+460,user460@mail.com,pass460,Premium,460,Taylor Swift,460,Playlist 460,460,Song 460,197,174
+461,user461@mail.com,pass461,Family,461,Ed Sheeran,461,Playlist 461,461,Song 461,250,219
+462,user462@mail.com,pass462,Family,462,Ed Sheeran,462,Playlist 462,462,Song 462,211,260
+463,user463@mail.com,pass463,Premium,463,Ed Sheeran,463,Playlist 463,463,Song 463,213,106
+464,user464@mail.com,pass464,Family,464,Taylor Swift,464,Playlist 464,464,Song 464,255,88
+465,user465@mail.com,pass465,Free,465,Taylor Swift,465,Playlist 465,465,Song 465,134,219
+466,user466@mail.com,pass466,Premium,466,Imagine Dragons,466,Playlist 466,466,Song 466,201,124
+467,user467@mail.com,pass467,Family,467,Taylor Swift,467,Playlist 467,467,Song 467,194,64
+468,user468@mail.com,pass468,Premium,468,Imagine Dragons,468,Playlist 468,468,Song 468,250,232
+469,user469@mail.com,pass469,Family,469,Imagine Dragons,469,Playlist 469,469,Song 469,172,274
+470,user470@mail.com,pass470,Student,470,Imagine Dragons,470,Playlist 470,470,Song 470,153,288
+471,user471@mail.com,pass471,Free,471,Imagine Dragons,471,Playlist 471,471,Song 471,191,54
+472,user472@mail.com,pass472,Family,472,Adele,472,Playlist 472,472,Song 472,166,102
+473,user473@mail.com,pass473,Premium,473,Ed Sheeran,473,Playlist 473,473,Song 473,205,55
+474,user474@mail.com,pass474,Family,474,Taylor Swift,474,Playlist 474,474,Song 474,180,184
+475,user475@mail.com,pass475,Student,475,Imagine Dragons,475,Playlist 475,475,Song 475,213,71
+476,user476@mail.com,pass476,Student,476,Coldplay,476,Playlist 476,476,Song 476,191,86
+477,user477@mail.com,pass477,Family,477,Ed Sheeran,477,Playlist 477,477,Song 477,197,66
+478,user478@mail.com,pass478,Student,478,Coldplay,478,Playlist 478,478,Song 478,193,238
+479,user479@mail.com,pass479,Free,479,Taylor Swift,479,Playlist 479,479,Song 479,216,261
+480,user480@mail.com,pass480,Family,480,Coldplay,480,Playlist 480,480,Song 480,207,269
+481,user481@mail.com,pass481,Family,481,Taylor Swift,481,Playlist 481,481,Song 481,257,104
+482,user482@mail.com,pass482,Family,482,Ed Sheeran,482,Playlist 482,482,Song 482,254,231
+483,user483@mail.com,pass483,Student,483,Coldplay,483,Playlist 483,483,Song 483,251,169
+484,user484@mail.com,pass484,Premium,484,Ed Sheeran,484,Playlist 484,484,Song 484,137,35
+485,user485@mail.com,pass485,Free,485,Adele,485,Playlist 485,485,Song 485,159,263
+486,user486@mail.com,pass486,Premium,486,Taylor Swift,486,Playlist 486,486,Song 486,232,96
+487,user487@mail.com,pass487,Free,487,Taylor Swift,487,Playlist 487,487,Song 487,212,123
+488,user488@mail.com,pass488,Premium,488,Adele,488,Playlist 488,488,Song 488,217,161
+489,user489@mail.com,pass489,Student,489,Adele,489,Playlist 489,489,Song 489,224,115
+490,user490@mail.com,pass490,Premium,490,Adele,490,Playlist 490,490,Song 490,288,81
+491,user491@mail.com,pass491,Premium,491,Taylor Swift,491,Playlist 491,491,Song 491,201,196
+492,user492@mail.com,pass492,Student,492,Imagine Dragons,492,Playlist 492,492,Song 492,242,106
+493,user493@mail.com,pass493,Student,493,Coldplay,493,Playlist 493,493,Song 493,232,290
+494,user494@mail.com,pass494,Family,494,Coldplay,494,Playlist 494,494,Song 494,225,146
+495,user495@mail.com,pass495,Student,495,Adele,495,Playlist 495,495,Song 495,222,247
+496,user496@mail.com,pass496,Student,496,Ed Sheeran,496,Playlist 496,496,Song 496,172,113
+497,user497@mail.com,pass497,Family,497,Ed Sheeran,497,Playlist 497,497,Song 497,190,90
+498,user498@mail.com,pass498,Free,498,Ed Sheeran,498,Playlist 498,498,Song 498,217,265
+499,user499@mail.com,pass499,Family,499,Coldplay,499,Playlist 499,499,Song 499,163,267
+500,user500@mail.com,pass500,Premium,500,Taylor Swift,500,Playlist 500,500,Song 500,183,254
+501,user501@mail.com,pass501,Family,501,Imagine Dragons,501,Playlist 501,501,Song 501,219,279
+502,user502@mail.com,pass502,Premium,502,Taylor Swift,502,Playlist 502,502,Song 502,225,203
+503,user503@mail.com,pass503,Family,503,Taylor Swift,503,Playlist 503,503,Song 503,140,172
+504,user504@mail.com,pass504,Free,504,Ed Sheeran,504,Playlist 504,504,Song 504,160,36
+505,user505@mail.com,pass505,Free,505,Adele,505,Playlist 505,505,Song 505,191,177
+506,user506@mail.com,pass506,Family,506,Ed Sheeran,506,Playlist 506,506,Song 506,136,282
+507,user507@mail.com,pass507,Student,507,Taylor Swift,507,Playlist 507,507,Song 507,259,172
+508,user508@mail.com,pass508,Premium,508,Ed Sheeran,508,Playlist 508,508,Song 508,145,177
+509,user509@mail.com,pass509,Premium,509,Coldplay,509,Playlist 509,509,Song 509,287,81
+510,user510@mail.com,pass510,Student,510,Imagine Dragons,510,Playlist 510,510,Song 510,124,246
+511,user511@mail.com,pass511,Student,511,Ed Sheeran,511,Playlist 511,511,Song 511,185,78
+512,user512@mail.com,pass512,Premium,512,Taylor Swift,512,Playlist 512,512,Song 512,279,160
+513,user513@mail.com,pass513,Family,513,Coldplay,513,Playlist 513,513,Song 513,201,166
+514,user514@mail.com,pass514,Student,514,Taylor Swift,514,Playlist 514,514,Song 514,195,83
+515,user515@mail.com,pass515,Free,515,Ed Sheeran,515,Playlist 515,515,Song 515,208,142
+516,user516@mail.com,pass516,Student,516,Coldplay,516,Playlist 516,516,Song 516,231,287
+517,user517@mail.com,pass517,Premium,517,Adele,517,Playlist 517,517,Song 517,248,61
+518,user518@mail.com,pass518,Student,518,Coldplay,518,Playlist 518,518,Song 518,266,98
+519,user519@mail.com,pass519,Premium,519,Adele,519,Playlist 519,519,Song 519,222,117
+520,user520@mail.com,pass520,Free,520,Taylor Swift,520,Playlist 520,520,Song 520,125,49
+521,user521@mail.com,pass521,Free,521,Adele,521,Playlist 521,521,Song 521,251,243
+522,user522@mail.com,pass522,Premium,522,Coldplay,522,Playlist 522,522,Song 522,199,35
+523,user523@mail.com,pass523,Free,523,Ed Sheeran,523,Playlist 523,523,Song 523,244,62
+524,user524@mail.com,pass524,Student,524,Ed Sheeran,524,Playlist 524,524,Song 524,216,122
+525,user525@mail.com,pass525,Family,525,Adele,525,Playlist 525,525,Song 525,229,105
+526,user526@mail.com,pass526,Student,526,Adele,526,Playlist 526,526,Song 526,232,39
+527,user527@mail.com,pass527,Premium,527,Coldplay,527,Playlist 527,527,Song 527,281,298
+528,user528@mail.com,pass528,Free,528,Coldplay,528,Playlist 528,528,Song 528,142,278
+529,user529@mail.com,pass529,Free,529,Taylor Swift,529,Playlist 529,529,Song 529,150,124
+530,user530@mail.com,pass530,Free,530,Coldplay,530,Playlist 530,530,Song 530,222,134
+531,user531@mail.com,pass531,Family,531,Taylor Swift,531,Playlist 531,531,Song 531,217,48
+532,user532@mail.com,pass532,Free,532,Coldplay,532,Playlist 532,532,Song 532,161,55
+533,user533@mail.com,pass533,Premium,533,Ed Sheeran,533,Playlist 533,533,Song 533,268,285
+534,user534@mail.com,pass534,Family,534,Taylor Swift,534,Playlist 534,534,Song 534,172,178
+535,user535@mail.com,pass535,Premium,535,Adele,535,Playlist 535,535,Song 535,121,117
+536,user536@mail.com,pass536,Premium,536,Ed Sheeran,536,Playlist 536,536,Song 536,240,239
+537,user537@mail.com,pass537,Family,537,Taylor Swift,537,Playlist 537,537,Song 537,156,128
+538,user538@mail.com,pass538,Family,538,Adele,538,Playlist 538,538,Song 538,277,93
+539,user539@mail.com,pass539,Premium,539,Adele,539,Playlist 539,539,Song 539,234,294
+540,user540@mail.com,pass540,Family,540,Coldplay,540,Playlist 540,540,Song 540,261,84
+541,user541@mail.com,pass541,Free,541,Taylor Swift,541,Playlist 541,541,Song 541,240,258
+542,user542@mail.com,pass542,Student,542,Taylor Swift,542,Playlist 542,542,Song 542,274,126
+543,user543@mail.com,pass543,Free,543,Taylor Swift,543,Playlist 543,543,Song 543,248,67
+544,user544@mail.com,pass544,Family,544,Imagine Dragons,544,Playlist 544,544,Song 544,215,96
+545,user545@mail.com,pass545,Premium,545,Ed Sheeran,545,Playlist 545,545,Song 545,295,128
+546,user546@mail.com,pass546,Free,546,Imagine Dragons,546,Playlist 546,546,Song 546,219,101
+547,user547@mail.com,pass547,Premium,547,Imagine Dragons,547,Playlist 547,547,Song 547,259,48
+548,user548@mail.com,pass548,Premium,548,Taylor Swift,548,Playlist 548,548,Song 548,204,43
+549,user549@mail.com,pass549,Family,549,Adele,549,Playlist 549,549,Song 549,261,50
+550,user550@mail.com,pass550,Family,550,Imagine Dragons,550,Playlist 550,550,Song 550,203,56
+551,user551@mail.com,pass551,Student,551,Taylor Swift,551,Playlist 551,551,Song 551,180,240
+552,user552@mail.com,pass552,Free,552,Imagine Dragons,552,Playlist 552,552,Song 552,124,113
+553,user553@mail.com,pass553,Free,553,Adele,553,Playlist 553,553,Song 553,189,55
+554,user554@mail.com,pass554,Premium,554,Taylor Swift,554,Playlist 554,554,Song 554,144,124
+555,user555@mail.com,pass555,Premium,555,Coldplay,555,Playlist 555,555,Song 555,262,62
+556,user556@mail.com,pass556,Premium,556,Imagine Dragons,556,Playlist 556,556,Song 556,134,84
+557,user557@mail.com,pass557,Family,557,Coldplay,557,Playlist 557,557,Song 557,128,211
+558,user558@mail.com,pass558,Family,558,Coldplay,558,Playlist 558,558,Song 558,212,291
+559,user559@mail.com,pass559,Student,559,Ed Sheeran,559,Playlist 559,559,Song 559,223,57
+560,user560@mail.com,pass560,Student,560,Taylor Swift,560,Playlist 560,560,Song 560,187,174
+561,user561@mail.com,pass561,Free,561,Adele,561,Playlist 561,561,Song 561,280,144
+562,user562@mail.com,pass562,Family,562,Imagine Dragons,562,Playlist 562,562,Song 562,262,191
+563,user563@mail.com,pass563,Family,563,Taylor Swift,563,Playlist 563,563,Song 563,181,232
+564,user564@mail.com,pass564,Student,564,Imagine Dragons,564,Playlist 564,564,Song 564,157,68
+565,user565@mail.com,pass565,Family,565,Ed Sheeran,565,Playlist 565,565,Song 565,212,194
+566,user566@mail.com,pass566,Student,566,Taylor Swift,566,Playlist 566,566,Song 566,278,69
+567,user567@mail.com,pass567,Student,567,Coldplay,567,Playlist 567,567,Song 567,197,113
+568,user568@mail.com,pass568,Student,568,Ed Sheeran,568,Playlist 568,568,Song 568,138,216
+569,user569@mail.com,pass569,Family,569,Adele,569,Playlist 569,569,Song 569,230,284
+570,user570@mail.com,pass570,Premium,570,Coldplay,570,Playlist 570,570,Song 570,259,248
+571,user571@mail.com,pass571,Family,571,Imagine Dragons,571,Playlist 571,571,Song 571,237,45
+572,user572@mail.com,pass572,Family,572,Imagine Dragons,572,Playlist 572,572,Song 572,159,61
+573,user573@mail.com,pass573,Family,573,Coldplay,573,Playlist 573,573,Song 573,289,232
+574,user574@mail.com,pass574,Free,574,Adele,574,Playlist 574,574,Song 574,281,120
+575,user575@mail.com,pass575,Free,575,Taylor Swift,575,Playlist 575,575,Song 575,299,153
+576,user576@mail.com,pass576,Student,576,Ed Sheeran,576,Playlist 576,576,Song 576,124,292
+577,user577@mail.com,pass577,Student,577,Taylor Swift,577,Playlist 577,577,Song 577,233,188
+578,user578@mail.com,pass578,Premium,578,Adele,578,Playlist 578,578,Song 578,134,48
+579,user579@mail.com,pass579,Free,579,Taylor Swift,579,Playlist 579,579,Song 579,149,218
+580,user580@mail.com,pass580,Premium,580,Adele,580,Playlist 580,580,Song 580,180,169
+581,user581@mail.com,pass581,Premium,581,Ed Sheeran,581,Playlist 581,581,Song 581,212,165
+582,user582@mail.com,pass582,Family,582,Coldplay,582,Playlist 582,582,Song 582,192,245
+583,user583@mail.com,pass583,Free,583,Ed Sheeran,583,Playlist 583,583,Song 583,158,112
+584,user584@mail.com,pass584,Premium,584,Imagine Dragons,584,Playlist 584,584,Song 584,277,69
+585,user585@mail.com,pass585,Free,585,Imagine Dragons,585,Playlist 585,585,Song 585,183,94
+586,user586@mail.com,pass586,Student,586,Imagine Dragons,586,Playlist 586,586,Song 586,179,286
+587,user587@mail.com,pass587,Free,587,Ed Sheeran,587,Playlist 587,587,Song 587,121,283
+588,user588@mail.com,pass588,Student,588,Taylor Swift,588,Playlist 588,588,Song 588,183,140
+589,user589@mail.com,pass589,Premium,589,Coldplay,589,Playlist 589,589,Song 589,270,294
+590,user590@mail.com,pass590,Premium,590,Coldplay,590,Playlist 590,590,Song 590,294,176
+591,user591@mail.com,pass591,Student,591,Coldplay,591,Playlist 591,591,Song 591,181,164
+592,user592@mail.com,pass592,Premium,592,Adele,592,Playlist 592,592,Song 592,154,294
+593,user593@mail.com,pass593,Premium,593,Ed Sheeran,593,Playlist 593,593,Song 593,283,192
+594,user594@mail.com,pass594,Free,594,Taylor Swift,594,Playlist 594,594,Song 594,255,119
+595,user595@mail.com,pass595,Premium,595,Coldplay,595,Playlist 595,595,Song 595,247,243
+596,user596@mail.com,pass596,Premium,596,Taylor Swift,596,Playlist 596,596,Song 596,254,118
+597,user597@mail.com,pass597,Premium,597,Ed Sheeran,597,Playlist 597,597,Song 597,300,244
+598,user598@mail.com,pass598,Student,598,Coldplay,598,Playlist 598,598,Song 598,143,240
+599,user599@mail.com,pass599,Premium,599,Ed Sheeran,599,Playlist 599,599,Song 599,124,206
+600,user600@mail.com,pass600,Family,600,Ed Sheeran,600,Playlist 600,600,Song 600,169,294
+601,user601@mail.com,pass601,Premium,601,Ed Sheeran,601,Playlist 601,601,Song 601,267,44
+602,user602@mail.com,pass602,Family,602,Taylor Swift,602,Playlist 602,602,Song 602,219,98
+603,user603@mail.com,pass603,Premium,603,Coldplay,603,Playlist 603,603,Song 603,197,290
+604,user604@mail.com,pass604,Premium,604,Taylor Swift,604,Playlist 604,604,Song 604,127,38
+605,user605@mail.com,pass605,Free,605,Imagine Dragons,605,Playlist 605,605,Song 605,239,194
+606,user606@mail.com,pass606,Premium,606,Coldplay,606,Playlist 606,606,Song 606,261,219
+607,user607@mail.com,pass607,Free,607,Taylor Swift,607,Playlist 607,607,Song 607,254,273
+608,user608@mail.com,pass608,Student,608,Imagine Dragons,608,Playlist 608,608,Song 608,168,133
+609,user609@mail.com,pass609,Student,609,Adele,609,Playlist 609,609,Song 609,191,168
+610,user610@mail.com,pass610,Family,610,Imagine Dragons,610,Playlist 610,610,Song 610,261,132
+611,user611@mail.com,pass611,Family,611,Adele,611,Playlist 611,611,Song 611,278,243
+612,user612@mail.com,pass612,Family,612,Imagine Dragons,612,Playlist 612,612,Song 612,243,136
+613,user613@mail.com,pass613,Premium,613,Ed Sheeran,613,Playlist 613,613,Song 613,189,152
+614,user614@mail.com,pass614,Student,614,Coldplay,614,Playlist 614,614,Song 614,170,152
+615,user615@mail.com,pass615,Free,615,Imagine Dragons,615,Playlist 615,615,Song 615,260,242
+616,user616@mail.com,pass616,Free,616,Ed Sheeran,616,Playlist 616,616,Song 616,176,40
+617,user617@mail.com,pass617,Family,617,Imagine Dragons,617,Playlist 617,617,Song 617,266,216
+618,user618@mail.com,pass618,Family,618,Coldplay,618,Playlist 618,618,Song 618,200,83
+619,user619@mail.com,pass619,Premium,619,Ed Sheeran,619,Playlist 619,619,Song 619,249,81
+620,user620@mail.com,pass620,Student,620,Coldplay,620,Playlist 620,620,Song 620,161,78
+621,user621@mail.com,pass621,Student,621,Taylor Swift,621,Playlist 621,621,Song 621,201,137
+622,user622@mail.com,pass622,Family,622,Ed Sheeran,622,Playlist 622,622,Song 622,154,100
+623,user623@mail.com,pass623,Premium,623,Ed Sheeran,623,Playlist 623,623,Song 623,261,266
+624,user624@mail.com,pass624,Premium,624,Taylor Swift,624,Playlist 624,624,Song 624,237,178
+625,user625@mail.com,pass625,Student,625,Taylor Swift,625,Playlist 625,625,Song 625,258,266
+626,user626@mail.com,pass626,Family,626,Coldplay,626,Playlist 626,626,Song 626,234,259
+627,user627@mail.com,pass627,Premium,627,Adele,627,Playlist 627,627,Song 627,121,160
+628,user628@mail.com,pass628,Family,628,Imagine Dragons,628,Playlist 628,628,Song 628,205,204
+629,user629@mail.com,pass629,Free,629,Taylor Swift,629,Playlist 629,629,Song 629,166,230
+630,user630@mail.com,pass630,Free,630,Imagine Dragons,630,Playlist 630,630,Song 630,226,80
+631,user631@mail.com,pass631,Free,631,Coldplay,631,Playlist 631,631,Song 631,265,125
+632,user632@mail.com,pass632,Premium,632,Coldplay,632,Playlist 632,632,Song 632,294,91
+633,user633@mail.com,pass633,Free,633,Taylor Swift,633,Playlist 633,633,Song 633,208,145
+634,user634@mail.com,pass634,Student,634,Adele,634,Playlist 634,634,Song 634,190,172
+635,user635@mail.com,pass635,Student,635,Adele,635,Playlist 635,635,Song 635,171,265
+636,user636@mail.com,pass636,Premium,636,Coldplay,636,Playlist 636,636,Song 636,184,209
+637,user637@mail.com,pass637,Premium,637,Taylor Swift,637,Playlist 637,637,Song 637,291,131
+638,user638@mail.com,pass638,Free,638,Ed Sheeran,638,Playlist 638,638,Song 638,165,188
+639,user639@mail.com,pass639,Free,639,Taylor Swift,639,Playlist 639,639,Song 639,127,246
+640,user640@mail.com,pass640,Premium,640,Coldplay,640,Playlist 640,640,Song 640,279,124
+641,user641@mail.com,pass641,Premium,641,Coldplay,641,Playlist 641,641,Song 641,209,196
+642,user642@mail.com,pass642,Student,642,Coldplay,642,Playlist 642,642,Song 642,236,66
+643,user643@mail.com,pass643,Student,643,Coldplay,643,Playlist 643,643,Song 643,228,34
+644,user644@mail.com,pass644,Premium,644,Taylor Swift,644,Playlist 644,644,Song 644,170,94
+645,user645@mail.com,pass645,Family,645,Coldplay,645,Playlist 645,645,Song 645,155,121
+646,user646@mail.com,pass646,Student,646,Imagine Dragons,646,Playlist 646,646,Song 646,179,51
+647,user647@mail.com,pass647,Student,647,Adele,647,Playlist 647,647,Song 647,234,199
+648,user648@mail.com,pass648,Free,648,Adele,648,Playlist 648,648,Song 648,273,141
+649,user649@mail.com,pass649,Premium,649,Ed Sheeran,649,Playlist 649,649,Song 649,242,210
+650,user650@mail.com,pass650,Free,650,Adele,650,Playlist 650,650,Song 650,243,193
+651,user651@mail.com,pass651,Free,651,Taylor Swift,651,Playlist 651,651,Song 651,134,106
+652,user652@mail.com,pass652,Family,652,Taylor Swift,652,Playlist 652,652,Song 652,129,153
+653,user653@mail.com,pass653,Student,653,Adele,653,Playlist 653,653,Song 653,149,150
+654,user654@mail.com,pass654,Student,654,Coldplay,654,Playlist 654,654,Song 654,186,226
+655,user655@mail.com,pass655,Free,655,Ed Sheeran,655,Playlist 655,655,Song 655,289,127
+656,user656@mail.com,pass656,Free,656,Ed Sheeran,656,Playlist 656,656,Song 656,230,178
+657,user657@mail.com,pass657,Family,657,Adele,657,Playlist 657,657,Song 657,181,289
+658,user658@mail.com,pass658,Free,658,Imagine Dragons,658,Playlist 658,658,Song 658,252,69
+659,user659@mail.com,pass659,Free,659,Coldplay,659,Playlist 659,659,Song 659,240,267
+660,user660@mail.com,pass660,Free,660,Ed Sheeran,660,Playlist 660,660,Song 660,216,286
+661,user661@mail.com,pass661,Student,661,Coldplay,661,Playlist 661,661,Song 661,207,261
+662,user662@mail.com,pass662,Premium,662,Taylor Swift,662,Playlist 662,662,Song 662,222,196
+663,user663@mail.com,pass663,Free,663,Taylor Swift,663,Playlist 663,663,Song 663,218,148
+664,user664@mail.com,pass664,Free,664,Imagine Dragons,664,Playlist 664,664,Song 664,190,94
+665,user665@mail.com,pass665,Premium,665,Coldplay,665,Playlist 665,665,Song 665,128,164
+666,user666@mail.com,pass666,Family,666,Imagine Dragons,666,Playlist 666,666,Song 666,129,167
+667,user667@mail.com,pass667,Student,667,Adele,667,Playlist 667,667,Song 667,203,191
+668,user668@mail.com,pass668,Student,668,Imagine Dragons,668,Playlist 668,668,Song 668,139,224
+669,user669@mail.com,pass669,Student,669,Ed Sheeran,669,Playlist 669,669,Song 669,260,170
+670,user670@mail.com,pass670,Family,670,Coldplay,670,Playlist 670,670,Song 670,237,144
+671,user671@mail.com,pass671,Premium,671,Coldplay,671,Playlist 671,671,Song 671,138,173
+672,user672@mail.com,pass672,Free,672,Ed Sheeran,672,Playlist 672,672,Song 672,131,237
+673,user673@mail.com,pass673,Student,673,Taylor Swift,673,Playlist 673,673,Song 673,275,186
+674,user674@mail.com,pass674,Premium,674,Adele,674,Playlist 674,674,Song 674,135,128
+675,user675@mail.com,pass675,Student,675,Imagine Dragons,675,Playlist 675,675,Song 675,162,69
+676,user676@mail.com,pass676,Free,676,Taylor Swift,676,Playlist 676,676,Song 676,229,218
+677,user677@mail.com,pass677,Family,677,Taylor Swift,677,Playlist 677,677,Song 677,149,179
+678,user678@mail.com,pass678,Free,678,Adele,678,Playlist 678,678,Song 678,168,109
+679,user679@mail.com,pass679,Student,679,Taylor Swift,679,Playlist 679,679,Song 679,175,195
+680,user680@mail.com,pass680,Family,680,Ed Sheeran,680,Playlist 680,680,Song 680,120,293
+681,user681@mail.com,pass681,Student,681,Ed Sheeran,681,Playlist 681,681,Song 681,253,98
+682,user682@mail.com,pass682,Free,682,Imagine Dragons,682,Playlist 682,682,Song 682,268,268
+683,user683@mail.com,pass683,Premium,683,Coldplay,683,Playlist 683,683,Song 683,193,56
+684,user684@mail.com,pass684,Student,684,Adele,684,Playlist 684,684,Song 684,213,246
+685,user685@mail.com,pass685,Free,685,Taylor Swift,685,Playlist 685,685,Song 685,199,117
+686,user686@mail.com,pass686,Free,686,Adele,686,Playlist 686,686,Song 686,261,108
+687,user687@mail.com,pass687,Premium,687,Adele,687,Playlist 687,687,Song 687,300,37
+688,user688@mail.com,pass688,Family,688,Coldplay,688,Playlist 688,688,Song 688,226,208
+689,user689@mail.com,pass689,Free,689,Adele,689,Playlist 689,689,Song 689,300,264
+690,user690@mail.com,pass690,Family,690,Coldplay,690,Playlist 690,690,Song 690,166,128
+691,user691@mail.com,pass691,Family,691,Adele,691,Playlist 691,691,Song 691,130,39
+692,user692@mail.com,pass692,Premium,692,Coldplay,692,Playlist 692,692,Song 692,216,203
+693,user693@mail.com,pass693,Student,693,Adele,693,Playlist 693,693,Song 693,273,211
+694,user694@mail.com,pass694,Premium,694,Imagine Dragons,694,Playlist 694,694,Song 694,248,161
+695,user695@mail.com,pass695,Student,695,Ed Sheeran,695,Playlist 695,695,Song 695,230,83
+696,user696@mail.com,pass696,Student,696,Coldplay,696,Playlist 696,696,Song 696,295,122
+697,user697@mail.com,pass697,Free,697,Taylor Swift,697,Playlist 697,697,Song 697,163,211
+698,user698@mail.com,pass698,Premium,698,Imagine Dragons,698,Playlist 698,698,Song 698,122,125
+699,user699@mail.com,pass699,Premium,699,Adele,699,Playlist 699,699,Song 699,188,48
+700,user700@mail.com,pass700,Student,700,Coldplay,700,Playlist 700,700,Song 700,244,120
+701,user701@mail.com,pass701,Free,701,Adele,701,Playlist 701,701,Song 701,258,214
+702,user702@mail.com,pass702,Premium,702,Ed Sheeran,702,Playlist 702,702,Song 702,218,266
+703,user703@mail.com,pass703,Premium,703,Coldplay,703,Playlist 703,703,Song 703,236,190
+704,user704@mail.com,pass704,Premium,704,Taylor Swift,704,Playlist 704,704,Song 704,194,250
+705,user705@mail.com,pass705,Family,705,Imagine Dragons,705,Playlist 705,705,Song 705,154,263
+706,user706@mail.com,pass706,Family,706,Ed Sheeran,706,Playlist 706,706,Song 706,274,210
+707,user707@mail.com,pass707,Student,707,Taylor Swift,707,Playlist 707,707,Song 707,195,168
+708,user708@mail.com,pass708,Family,708,Imagine Dragons,708,Playlist 708,708,Song 708,133,187
+709,user709@mail.com,pass709,Free,709,Coldplay,709,Playlist 709,709,Song 709,213,282
+710,user710@mail.com,pass710,Free,710,Imagine Dragons,710,Playlist 710,710,Song 710,295,82
+711,user711@mail.com,pass711,Premium,711,Taylor Swift,711,Playlist 711,711,Song 711,290,40
+712,user712@mail.com,pass712,Free,712,Taylor Swift,712,Playlist 712,712,Song 712,224,41
+713,user713@mail.com,pass713,Free,713,Ed Sheeran,713,Playlist 713,713,Song 713,136,273
+714,user714@mail.com,pass714,Premium,714,Imagine Dragons,714,Playlist 714,714,Song 714,249,243
+715,user715@mail.com,pass715,Premium,715,Imagine Dragons,715,Playlist 715,715,Song 715,121,171
+716,user716@mail.com,pass716,Premium,716,Adele,716,Playlist 716,716,Song 716,278,159
+717,user717@mail.com,pass717,Student,717,Taylor Swift,717,Playlist 717,717,Song 717,147,53
+718,user718@mail.com,pass718,Premium,718,Taylor Swift,718,Playlist 718,718,Song 718,167,270
+719,user719@mail.com,pass719,Student,719,Taylor Swift,719,Playlist 719,719,Song 719,123,44
+720,user720@mail.com,pass720,Student,720,Taylor Swift,720,Playlist 720,720,Song 720,258,172
+721,user721@mail.com,pass721,Family,721,Ed Sheeran,721,Playlist 721,721,Song 721,230,256
+722,user722@mail.com,pass722,Student,722,Coldplay,722,Playlist 722,722,Song 722,193,296
+723,user723@mail.com,pass723,Free,723,Coldplay,723,Playlist 723,723,Song 723,238,176
+724,user724@mail.com,pass724,Family,724,Adele,724,Playlist 724,724,Song 724,269,138
+725,user725@mail.com,pass725,Student,725,Coldplay,725,Playlist 725,725,Song 725,142,251
+726,user726@mail.com,pass726,Student,726,Coldplay,726,Playlist 726,726,Song 726,133,242
+727,user727@mail.com,pass727,Family,727,Coldplay,727,Playlist 727,727,Song 727,179,262
+728,user728@mail.com,pass728,Student,728,Imagine Dragons,728,Playlist 728,728,Song 728,132,104
+729,user729@mail.com,pass729,Premium,729,Ed Sheeran,729,Playlist 729,729,Song 729,129,181
+730,user730@mail.com,pass730,Premium,730,Adele,730,Playlist 730,730,Song 730,281,284
+731,user731@mail.com,pass731,Student,731,Ed Sheeran,731,Playlist 731,731,Song 731,245,46
+732,user732@mail.com,pass732,Free,732,Taylor Swift,732,Playlist 732,732,Song 732,293,143
+733,user733@mail.com,pass733,Free,733,Adele,733,Playlist 733,733,Song 733,215,226
+734,user734@mail.com,pass734,Student,734,Imagine Dragons,734,Playlist 734,734,Song 734,201,57
+735,user735@mail.com,pass735,Free,735,Taylor Swift,735,Playlist 735,735,Song 735,182,118
+736,user736@mail.com,pass736,Student,736,Taylor Swift,736,Playlist 736,736,Song 736,147,240
+737,user737@mail.com,pass737,Student,737,Taylor Swift,737,Playlist 737,737,Song 737,281,199
+738,user738@mail.com,pass738,Free,738,Adele,738,Playlist 738,738,Song 738,156,290
+739,user739@mail.com,pass739,Student,739,Taylor Swift,739,Playlist 739,739,Song 739,220,94
+740,user740@mail.com,pass740,Free,740,Coldplay,740,Playlist 740,740,Song 740,234,255
+741,user741@mail.com,pass741,Student,741,Coldplay,741,Playlist 741,741,Song 741,220,57
+742,user742@mail.com,pass742,Student,742,Adele,742,Playlist 742,742,Song 742,299,30
+743,user743@mail.com,pass743,Family,743,Adele,743,Playlist 743,743,Song 743,171,42
+744,user744@mail.com,pass744,Free,744,Imagine Dragons,744,Playlist 744,744,Song 744,191,240
+745,user745@mail.com,pass745,Student,745,Adele,745,Playlist 745,745,Song 745,206,80
+746,user746@mail.com,pass746,Family,746,Coldplay,746,Playlist 746,746,Song 746,298,124
+747,user747@mail.com,pass747,Free,747,Adele,747,Playlist 747,747,Song 747,160,277
+748,user748@mail.com,pass748,Family,748,Coldplay,748,Playlist 748,748,Song 748,234,247
+749,user749@mail.com,pass749,Family,749,Coldplay,749,Playlist 749,749,Song 749,297,115
+750,user750@mail.com,pass750,Family,750,Coldplay,750,Playlist 750,750,Song 750,130,227
+751,user751@mail.com,pass751,Student,751,Adele,751,Playlist 751,751,Song 751,246,83
+752,user752@mail.com,pass752,Family,752,Taylor Swift,752,Playlist 752,752,Song 752,121,80
+753,user753@mail.com,pass753,Student,753,Coldplay,753,Playlist 753,753,Song 753,229,218
+754,user754@mail.com,pass754,Premium,754,Imagine Dragons,754,Playlist 754,754,Song 754,240,31
+755,user755@mail.com,pass755,Premium,755,Ed Sheeran,755,Playlist 755,755,Song 755,192,30
+756,user756@mail.com,pass756,Premium,756,Taylor Swift,756,Playlist 756,756,Song 756,124,168
+757,user757@mail.com,pass757,Student,757,Adele,757,Playlist 757,757,Song 757,186,77
+758,user758@mail.com,pass758,Student,758,Imagine Dragons,758,Playlist 758,758,Song 758,245,130
+759,user759@mail.com,pass759,Premium,759,Coldplay,759,Playlist 759,759,Song 759,294,258
+760,user760@mail.com,pass760,Premium,760,Adele,760,Playlist 760,760,Song 760,282,235
+761,user761@mail.com,pass761,Free,761,Imagine Dragons,761,Playlist 761,761,Song 761,166,192
+762,user762@mail.com,pass762,Premium,762,Taylor Swift,762,Playlist 762,762,Song 762,221,252
+763,user763@mail.com,pass763,Family,763,Ed Sheeran,763,Playlist 763,763,Song 763,261,147
+764,user764@mail.com,pass764,Family,764,Taylor Swift,764,Playlist 764,764,Song 764,254,147
+765,user765@mail.com,pass765,Free,765,Imagine Dragons,765,Playlist 765,765,Song 765,217,209
+766,user766@mail.com,pass766,Premium,766,Taylor Swift,766,Playlist 766,766,Song 766,234,184
+767,user767@mail.com,pass767,Student,767,Adele,767,Playlist 767,767,Song 767,300,136
+768,user768@mail.com,pass768,Premium,768,Taylor Swift,768,Playlist 768,768,Song 768,192,179
+769,user769@mail.com,pass769,Student,769,Adele,769,Playlist 769,769,Song 769,265,38
+770,user770@mail.com,pass770,Student,770,Coldplay,770,Playlist 770,770,Song 770,249,255
+771,user771@mail.com,pass771,Family,771,Coldplay,771,Playlist 771,771,Song 771,231,271
+772,user772@mail.com,pass772,Premium,772,Ed Sheeran,772,Playlist 772,772,Song 772,220,228
+773,user773@mail.com,pass773,Student,773,Adele,773,Playlist 773,773,Song 773,195,76
+774,user774@mail.com,pass774,Free,774,Imagine Dragons,774,Playlist 774,774,Song 774,184,149
+775,user775@mail.com,pass775,Free,775,Imagine Dragons,775,Playlist 775,775,Song 775,174,93
+776,user776@mail.com,pass776,Premium,776,Coldplay,776,Playlist 776,776,Song 776,164,216
+777,user777@mail.com,pass777,Free,777,Adele,777,Playlist 777,777,Song 777,262,134
+778,user778@mail.com,pass778,Free,778,Coldplay,778,Playlist 778,778,Song 778,170,126
+779,user779@mail.com,pass779,Free,779,Imagine Dragons,779,Playlist 779,779,Song 779,149,253
+780,user780@mail.com,pass780,Student,780,Taylor Swift,780,Playlist 780,780,Song 780,295,156
+781,user781@mail.com,pass781,Family,781,Imagine Dragons,781,Playlist 781,781,Song 781,209,277
+782,user782@mail.com,pass782,Family,782,Adele,782,Playlist 782,782,Song 782,207,259
+783,user783@mail.com,pass783,Family,783,Taylor Swift,783,Playlist 783,783,Song 783,275,36
+784,user784@mail.com,pass784,Free,784,Adele,784,Playlist 784,784,Song 784,292,260
+785,user785@mail.com,pass785,Free,785,Taylor Swift,785,Playlist 785,785,Song 785,238,152
+786,user786@mail.com,pass786,Student,786,Ed Sheeran,786,Playlist 786,786,Song 786,152,273
+787,user787@mail.com,pass787,Family,787,Adele,787,Playlist 787,787,Song 787,143,111
+788,user788@mail.com,pass788,Free,788,Ed Sheeran,788,Playlist 788,788,Song 788,144,299
+789,user789@mail.com,pass789,Student,789,Imagine Dragons,789,Playlist 789,789,Song 789,160,290
+790,user790@mail.com,pass790,Premium,790,Imagine Dragons,790,Playlist 790,790,Song 790,148,234
+791,user791@mail.com,pass791,Student,791,Taylor Swift,791,Playlist 791,791,Song 791,154,284
+792,user792@mail.com,pass792,Free,792,Adele,792,Playlist 792,792,Song 792,235,206
+793,user793@mail.com,pass793,Family,793,Taylor Swift,793,Playlist 793,793,Song 793,203,88
+794,user794@mail.com,pass794,Family,794,Taylor Swift,794,Playlist 794,794,Song 794,237,298
+795,user795@mail.com,pass795,Student,795,Ed Sheeran,795,Playlist 795,795,Song 795,296,123
+796,user796@mail.com,pass796,Free,796,Imagine Dragons,796,Playlist 796,796,Song 796,251,277
+797,user797@mail.com,pass797,Family,797,Coldplay,797,Playlist 797,797,Song 797,162,283
+798,user798@mail.com,pass798,Family,798,Adele,798,Playlist 798,798,Song 798,251,248
+799,user799@mail.com,pass799,Student,799,Taylor Swift,799,Playlist 799,799,Song 799,213,42
+800,user800@mail.com,pass800,Student,800,Ed Sheeran,800,Playlist 800,800,Song 800,137,275
+801,user801@mail.com,pass801,Premium,801,Adele,801,Playlist 801,801,Song 801,270,165
+802,user802@mail.com,pass802,Free,802,Ed Sheeran,802,Playlist 802,802,Song 802,161,209
+803,user803@mail.com,pass803,Family,803,Imagine Dragons,803,Playlist 803,803,Song 803,146,120
+804,user804@mail.com,pass804,Premium,804,Taylor Swift,804,Playlist 804,804,Song 804,197,214
+805,user805@mail.com,pass805,Student,805,Ed Sheeran,805,Playlist 805,805,Song 805,199,166
+806,user806@mail.com,pass806,Free,806,Coldplay,806,Playlist 806,806,Song 806,279,111
+807,user807@mail.com,pass807,Student,807,Coldplay,807,Playlist 807,807,Song 807,197,170
+808,user808@mail.com,pass808,Free,808,Coldplay,808,Playlist 808,808,Song 808,211,103
+809,user809@mail.com,pass809,Family,809,Ed Sheeran,809,Playlist 809,809,Song 809,192,154
+810,user810@mail.com,pass810,Premium,810,Imagine Dragons,810,Playlist 810,810,Song 810,259,127
+811,user811@mail.com,pass811,Student,811,Ed Sheeran,811,Playlist 811,811,Song 811,166,152
+812,user812@mail.com,pass812,Family,812,Adele,812,Playlist 812,812,Song 812,219,46
+813,user813@mail.com,pass813,Student,813,Adele,813,Playlist 813,813,Song 813,178,279
+814,user814@mail.com,pass814,Free,814,Taylor Swift,814,Playlist 814,814,Song 814,206,136
+815,user815@mail.com,pass815,Family,815,Taylor Swift,815,Playlist 815,815,Song 815,239,254
+816,user816@mail.com,pass816,Student,816,Coldplay,816,Playlist 816,816,Song 816,222,34
+817,user817@mail.com,pass817,Student,817,Adele,817,Playlist 817,817,Song 817,229,217
+818,user818@mail.com,pass818,Free,818,Imagine Dragons,818,Playlist 818,818,Song 818,164,78
+819,user819@mail.com,pass819,Family,819,Imagine Dragons,819,Playlist 819,819,Song 819,209,62
+820,user820@mail.com,pass820,Premium,820,Imagine Dragons,820,Playlist 820,820,Song 820,151,69
+821,user821@mail.com,pass821,Premium,821,Adele,821,Playlist 821,821,Song 821,245,54
+822,user822@mail.com,pass822,Family,822,Imagine Dragons,822,Playlist 822,822,Song 822,132,100
+823,user823@mail.com,pass823,Premium,823,Imagine Dragons,823,Playlist 823,823,Song 823,294,249
+824,user824@mail.com,pass824,Family,824,Adele,824,Playlist 824,824,Song 824,173,128
+825,user825@mail.com,pass825,Premium,825,Ed Sheeran,825,Playlist 825,825,Song 825,179,104
+826,user826@mail.com,pass826,Student,826,Coldplay,826,Playlist 826,826,Song 826,161,268
+827,user827@mail.com,pass827,Free,827,Imagine Dragons,827,Playlist 827,827,Song 827,282,155
+828,user828@mail.com,pass828,Premium,828,Ed Sheeran,828,Playlist 828,828,Song 828,287,129
+829,user829@mail.com,pass829,Premium,829,Imagine Dragons,829,Playlist 829,829,Song 829,141,82
+830,user830@mail.com,pass830,Premium,830,Coldplay,830,Playlist 830,830,Song 830,286,67
+831,user831@mail.com,pass831,Student,831,Adele,831,Playlist 831,831,Song 831,251,165
+832,user832@mail.com,pass832,Free,832,Imagine Dragons,832,Playlist 832,832,Song 832,145,151
+833,user833@mail.com,pass833,Student,833,Imagine Dragons,833,Playlist 833,833,Song 833,210,223
+834,user834@mail.com,pass834,Student,834,Ed Sheeran,834,Playlist 834,834,Song 834,257,294
+835,user835@mail.com,pass835,Free,835,Ed Sheeran,835,Playlist 835,835,Song 835,227,140
+836,user836@mail.com,pass836,Free,836,Imagine Dragons,836,Playlist 836,836,Song 836,184,78
+837,user837@mail.com,pass837,Free,837,Ed Sheeran,837,Playlist 837,837,Song 837,243,32
+838,user838@mail.com,pass838,Premium,838,Ed Sheeran,838,Playlist 838,838,Song 838,276,289
+839,user839@mail.com,pass839,Premium,839,Imagine Dragons,839,Playlist 839,839,Song 839,174,230
+840,user840@mail.com,pass840,Student,840,Coldplay,840,Playlist 840,840,Song 840,233,221
+841,user841@mail.com,pass841,Family,841,Coldplay,841,Playlist 841,841,Song 841,124,293
+842,user842@mail.com,pass842,Family,842,Taylor Swift,842,Playlist 842,842,Song 842,297,91
+843,user843@mail.com,pass843,Premium,843,Taylor Swift,843,Playlist 843,843,Song 843,300,34
+844,user844@mail.com,pass844,Family,844,Coldplay,844,Playlist 844,844,Song 844,127,156
+845,user845@mail.com,pass845,Student,845,Ed Sheeran,845,Playlist 845,845,Song 845,242,259
+846,user846@mail.com,pass846,Premium,846,Ed Sheeran,846,Playlist 846,846,Song 846,240,139
+847,user847@mail.com,pass847,Free,847,Coldplay,847,Playlist 847,847,Song 847,142,55
+848,user848@mail.com,pass848,Free,848,Coldplay,848,Playlist 848,848,Song 848,190,43
+849,user849@mail.com,pass849,Premium,849,Coldplay,849,Playlist 849,849,Song 849,296,271
+850,user850@mail.com,pass850,Student,850,Ed Sheeran,850,Playlist 850,850,Song 850,267,49
+851,user851@mail.com,pass851,Free,851,Imagine Dragons,851,Playlist 851,851,Song 851,172,164
+852,user852@mail.com,pass852,Student,852,Ed Sheeran,852,Playlist 852,852,Song 852,142,125
+853,user853@mail.com,pass853,Student,853,Imagine Dragons,853,Playlist 853,853,Song 853,282,270
+854,user854@mail.com,pass854,Free,854,Adele,854,Playlist 854,854,Song 854,148,141
+855,user855@mail.com,pass855,Student,855,Adele,855,Playlist 855,855,Song 855,177,61
+856,user856@mail.com,pass856,Free,856,Imagine Dragons,856,Playlist 856,856,Song 856,238,287
+857,user857@mail.com,pass857,Student,857,Taylor Swift,857,Playlist 857,857,Song 857,145,280
+858,user858@mail.com,pass858,Free,858,Coldplay,858,Playlist 858,858,Song 858,142,98
+859,user859@mail.com,pass859,Student,859,Ed Sheeran,859,Playlist 859,859,Song 859,263,85
+860,user860@mail.com,pass860,Family,860,Taylor Swift,860,Playlist 860,860,Song 860,207,260
+861,user861@mail.com,pass861,Family,861,Adele,861,Playlist 861,861,Song 861,215,284
+862,user862@mail.com,pass862,Family,862,Coldplay,862,Playlist 862,862,Song 862,281,199
+863,user863@mail.com,pass863,Premium,863,Taylor Swift,863,Playlist 863,863,Song 863,263,224
+864,user864@mail.com,pass864,Family,864,Imagine Dragons,864,Playlist 864,864,Song 864,263,222
+865,user865@mail.com,pass865,Premium,865,Imagine Dragons,865,Playlist 865,865,Song 865,274,130
+866,user866@mail.com,pass866,Family,866,Imagine Dragons,866,Playlist 866,866,Song 866,246,34
+867,user867@mail.com,pass867,Family,867,Imagine Dragons,867,Playlist 867,867,Song 867,250,273
+868,user868@mail.com,pass868,Free,868,Imagine Dragons,868,Playlist 868,868,Song 868,126,116
+869,user869@mail.com,pass869,Family,869,Taylor Swift,869,Playlist 869,869,Song 869,168,240
+870,user870@mail.com,pass870,Free,870,Coldplay,870,Playlist 870,870,Song 870,241,106
+871,user871@mail.com,pass871,Free,871,Taylor Swift,871,Playlist 871,871,Song 871,168,51
+872,user872@mail.com,pass872,Premium,872,Adele,872,Playlist 872,872,Song 872,279,42
+873,user873@mail.com,pass873,Free,873,Taylor Swift,873,Playlist 873,873,Song 873,209,158
+874,user874@mail.com,pass874,Free,874,Imagine Dragons,874,Playlist 874,874,Song 874,157,38
+875,user875@mail.com,pass875,Student,875,Ed Sheeran,875,Playlist 875,875,Song 875,135,56
+876,user876@mail.com,pass876,Premium,876,Imagine Dragons,876,Playlist 876,876,Song 876,213,35
+877,user877@mail.com,pass877,Student,877,Imagine Dragons,877,Playlist 877,877,Song 877,141,157
+878,user878@mail.com,pass878,Family,878,Imagine Dragons,878,Playlist 878,878,Song 878,160,225
+879,user879@mail.com,pass879,Premium,879,Coldplay,879,Playlist 879,879,Song 879,275,154
+880,user880@mail.com,pass880,Family,880,Ed Sheeran,880,Playlist 880,880,Song 880,202,271
+881,user881@mail.com,pass881,Family,881,Coldplay,881,Playlist 881,881,Song 881,246,275
+882,user882@mail.com,pass882,Student,882,Imagine Dragons,882,Playlist 882,882,Song 882,259,185
+883,user883@mail.com,pass883,Family,883,Taylor Swift,883,Playlist 883,883,Song 883,168,80
+884,user884@mail.com,pass884,Free,884,Ed Sheeran,884,Playlist 884,884,Song 884,213,151
+885,user885@mail.com,pass885,Free,885,Adele,885,Playlist 885,885,Song 885,276,236
+886,user886@mail.com,pass886,Student,886,Coldplay,886,Playlist 886,886,Song 886,254,293
+887,user887@mail.com,pass887,Free,887,Ed Sheeran,887,Playlist 887,887,Song 887,284,194
+888,user888@mail.com,pass888,Student,888,Taylor Swift,888,Playlist 888,888,Song 888,174,95
+889,user889@mail.com,pass889,Free,889,Ed Sheeran,889,Playlist 889,889,Song 889,153,212
+890,user890@mail.com,pass890,Family,890,Coldplay,890,Playlist 890,890,Song 890,151,77
+891,user891@mail.com,pass891,Free,891,Imagine Dragons,891,Playlist 891,891,Song 891,137,53
+892,user892@mail.com,pass892,Family,892,Imagine Dragons,892,Playlist 892,892,Song 892,262,183
+893,user893@mail.com,pass893,Free,893,Imagine Dragons,893,Playlist 893,893,Song 893,174,114
+894,user894@mail.com,pass894,Free,894,Taylor Swift,894,Playlist 894,894,Song 894,272,73
+895,user895@mail.com,pass895,Family,895,Taylor Swift,895,Playlist 895,895,Song 895,200,261
+896,user896@mail.com,pass896,Student,896,Adele,896,Playlist 896,896,Song 896,124,274
+897,user897@mail.com,pass897,Family,897,Imagine Dragons,897,Playlist 897,897,Song 897,143,151
+898,user898@mail.com,pass898,Family,898,Ed Sheeran,898,Playlist 898,898,Song 898,200,41
+899,user899@mail.com,pass899,Family,899,Adele,899,Playlist 899,899,Song 899,157,276
+900,user900@mail.com,pass900,Student,900,Imagine Dragons,900,Playlist 900,900,Song 900,176,117
+901,user901@mail.com,pass901,Student,901,Imagine Dragons,901,Playlist 901,901,Song 901,182,193
+902,user902@mail.com,pass902,Family,902,Ed Sheeran,902,Playlist 902,902,Song 902,151,259
+903,user903@mail.com,pass903,Premium,903,Imagine Dragons,903,Playlist 903,903,Song 903,180,285
+904,user904@mail.com,pass904,Free,904,Imagine Dragons,904,Playlist 904,904,Song 904,272,264
+905,user905@mail.com,pass905,Family,905,Adele,905,Playlist 905,905,Song 905,154,179
+906,user906@mail.com,pass906,Student,906,Imagine Dragons,906,Playlist 906,906,Song 906,145,204
+907,user907@mail.com,pass907,Free,907,Ed Sheeran,907,Playlist 907,907,Song 907,236,295
+908,user908@mail.com,pass908,Free,908,Adele,908,Playlist 908,908,Song 908,175,183
+909,user909@mail.com,pass909,Family,909,Imagine Dragons,909,Playlist 909,909,Song 909,241,90
+910,user910@mail.com,pass910,Premium,910,Imagine Dragons,910,Playlist 910,910,Song 910,225,51
+911,user911@mail.com,pass911,Family,911,Taylor Swift,911,Playlist 911,911,Song 911,290,225
+912,user912@mail.com,pass912,Premium,912,Adele,912,Playlist 912,912,Song 912,177,95
+913,user913@mail.com,pass913,Free,913,Ed Sheeran,913,Playlist 913,913,Song 913,206,93
+914,user914@mail.com,pass914,Student,914,Imagine Dragons,914,Playlist 914,914,Song 914,149,224
+915,user915@mail.com,pass915,Student,915,Imagine Dragons,915,Playlist 915,915,Song 915,221,95
+916,user916@mail.com,pass916,Family,916,Adele,916,Playlist 916,916,Song 916,255,225
+917,user917@mail.com,pass917,Premium,917,Imagine Dragons,917,Playlist 917,917,Song 917,205,163
+918,user918@mail.com,pass918,Family,918,Imagine Dragons,918,Playlist 918,918,Song 918,186,248
+919,user919@mail.com,pass919,Premium,919,Adele,919,Playlist 919,919,Song 919,166,211
+920,user920@mail.com,pass920,Student,920,Adele,920,Playlist 920,920,Song 920,268,46
+921,user921@mail.com,pass921,Family,921,Taylor Swift,921,Playlist 921,921,Song 921,124,35
+922,user922@mail.com,pass922,Premium,922,Coldplay,922,Playlist 922,922,Song 922,272,283
+923,user923@mail.com,pass923,Family,923,Taylor Swift,923,Playlist 923,923,Song 923,253,285
+924,user924@mail.com,pass924,Student,924,Imagine Dragons,924,Playlist 924,924,Song 924,266,196
+925,user925@mail.com,pass925,Free,925,Imagine Dragons,925,Playlist 925,925,Song 925,259,209
+926,user926@mail.com,pass926,Student,926,Adele,926,Playlist 926,926,Song 926,176,222
+927,user927@mail.com,pass927,Premium,927,Ed Sheeran,927,Playlist 927,927,Song 927,155,83
+928,user928@mail.com,pass928,Premium,928,Adele,928,Playlist 928,928,Song 928,140,86
+929,user929@mail.com,pass929,Premium,929,Imagine Dragons,929,Playlist 929,929,Song 929,206,267
+930,user930@mail.com,pass930,Family,930,Taylor Swift,930,Playlist 930,930,Song 930,211,249
+931,user931@mail.com,pass931,Family,931,Ed Sheeran,931,Playlist 931,931,Song 931,162,78
+932,user932@mail.com,pass932,Family,932,Imagine Dragons,932,Playlist 932,932,Song 932,212,297
+933,user933@mail.com,pass933,Family,933,Imagine Dragons,933,Playlist 933,933,Song 933,240,91
+934,user934@mail.com,pass934,Premium,934,Ed Sheeran,934,Playlist 934,934,Song 934,193,189
+935,user935@mail.com,pass935,Premium,935,Adele,935,Playlist 935,935,Song 935,251,147
+936,user936@mail.com,pass936,Premium,936,Taylor Swift,936,Playlist 936,936,Song 936,222,56
+937,user937@mail.com,pass937,Free,937,Imagine Dragons,937,Playlist 937,937,Song 937,286,45
+938,user938@mail.com,pass938,Family,938,Coldplay,938,Playlist 938,938,Song 938,183,129
+939,user939@mail.com,pass939,Free,939,Ed Sheeran,939,Playlist 939,939,Song 939,149,247
+940,user940@mail.com,pass940,Family,940,Taylor Swift,940,Playlist 940,940,Song 940,220,110
+941,user941@mail.com,pass941,Free,941,Taylor Swift,941,Playlist 941,941,Song 941,237,237
+942,user942@mail.com,pass942,Student,942,Taylor Swift,942,Playlist 942,942,Song 942,140,146
+943,user943@mail.com,pass943,Student,943,Coldplay,943,Playlist 943,943,Song 943,244,76
+944,user944@mail.com,pass944,Student,944,Coldplay,944,Playlist 944,944,Song 944,181,246
+945,user945@mail.com,pass945,Family,945,Coldplay,945,Playlist 945,945,Song 945,247,273
+946,user946@mail.com,pass946,Student,946,Imagine Dragons,946,Playlist 946,946,Song 946,253,150
+947,user947@mail.com,pass947,Family,947,Coldplay,947,Playlist 947,947,Song 947,201,51
+948,user948@mail.com,pass948,Free,948,Adele,948,Playlist 948,948,Song 948,207,228
+949,user949@mail.com,pass949,Student,949,Taylor Swift,949,Playlist 949,949,Song 949,212,180
+950,user950@mail.com,pass950,Student,950,Adele,950,Playlist 950,950,Song 950,241,84
+951,user951@mail.com,pass951,Student,951,Ed Sheeran,951,Playlist 951,951,Song 951,238,164
+952,user952@mail.com,pass952,Family,952,Ed Sheeran,952,Playlist 952,952,Song 952,235,138
+953,user953@mail.com,pass953,Family,953,Imagine Dragons,953,Playlist 953,953,Song 953,272,30
+954,user954@mail.com,pass954,Free,954,Adele,954,Playlist 954,954,Song 954,124,129
+955,user955@mail.com,pass955,Family,955,Coldplay,955,Playlist 955,955,Song 955,125,247
+956,user956@mail.com,pass956,Free,956,Coldplay,956,Playlist 956,956,Song 956,132,162
+957,user957@mail.com,pass957,Student,957,Imagine Dragons,957,Playlist 957,957,Song 957,137,58
+958,user958@mail.com,pass958,Premium,958,Taylor Swift,958,Playlist 958,958,Song 958,276,87
+959,user959@mail.com,pass959,Free,959,Ed Sheeran,959,Playlist 959,959,Song 959,207,168
+960,user960@mail.com,pass960,Student,960,Taylor Swift,960,Playlist 960,960,Song 960,220,173
+961,user961@mail.com,pass961,Family,961,Imagine Dragons,961,Playlist 961,961,Song 961,275,172
+962,user962@mail.com,pass962,Family,962,Adele,962,Playlist 962,962,Song 962,201,92
+963,user963@mail.com,pass963,Family,963,Imagine Dragons,963,Playlist 963,963,Song 963,283,74
+964,user964@mail.com,pass964,Family,964,Coldplay,964,Playlist 964,964,Song 964,163,106
+965,user965@mail.com,pass965,Premium,965,Adele,965,Playlist 965,965,Song 965,294,102
+966,user966@mail.com,pass966,Family,966,Imagine Dragons,966,Playlist 966,966,Song 966,292,286
+967,user967@mail.com,pass967,Premium,967,Coldplay,967,Playlist 967,967,Song 967,231,267
+968,user968@mail.com,pass968,Free,968,Ed Sheeran,968,Playlist 968,968,Song 968,267,227
+969,user969@mail.com,pass969,Free,969,Coldplay,969,Playlist 969,969,Song 969,189,282
+970,user970@mail.com,pass970,Student,970,Taylor Swift,970,Playlist 970,970,Song 970,279,45
+971,user971@mail.com,pass971,Premium,971,Adele,971,Playlist 971,971,Song 971,255,57
+972,user972@mail.com,pass972,Premium,972,Imagine Dragons,972,Playlist 972,972,Song 972,215,241
+973,user973@mail.com,pass973,Family,973,Imagine Dragons,973,Playlist 973,973,Song 973,188,247
+974,user974@mail.com,pass974,Student,974,Imagine Dragons,974,Playlist 974,974,Song 974,203,221
+975,user975@mail.com,pass975,Family,975,Coldplay,975,Playlist 975,975,Song 975,228,222
+976,user976@mail.com,pass976,Student,976,Imagine Dragons,976,Playlist 976,976,Song 976,159,90
+977,user977@mail.com,pass977,Student,977,Adele,977,Playlist 977,977,Song 977,155,89
+978,user978@mail.com,pass978,Student,978,Ed Sheeran,978,Playlist 978,978,Song 978,298,96
+979,user979@mail.com,pass979,Family,979,Taylor Swift,979,Playlist 979,979,Song 979,147,107
+980,user980@mail.com,pass980,Family,980,Taylor Swift,980,Playlist 980,980,Song 980,270,239
+981,user981@mail.com,pass981,Family,981,Coldplay,981,Playlist 981,981,Song 981,166,73
+982,user982@mail.com,pass982,Premium,982,Imagine Dragons,982,Playlist 982,982,Song 982,225,297
+983,user983@mail.com,pass983,Family,983,Coldplay,983,Playlist 983,983,Song 983,279,30
+984,user984@mail.com,pass984,Free,984,Ed Sheeran,984,Playlist 984,984,Song 984,231,57
+985,user985@mail.com,pass985,Free,985,Adele,985,Playlist 985,985,Song 985,206,32
+986,user986@mail.com,pass986,Student,986,Imagine Dragons,986,Playlist 986,986,Song 986,270,208
+987,user987@mail.com,pass987,Student,987,Coldplay,987,Playlist 987,987,Song 987,128,93
+988,user988@mail.com,pass988,Free,988,Adele,988,Playlist 988,988,Song 988,245,230
+989,user989@mail.com,pass989,Student,989,Imagine Dragons,989,Playlist 989,989,Song 989,267,257
+990,user990@mail.com,pass990,Family,990,Imagine Dragons,990,Playlist 990,990,Song 990,235,234
+991,user991@mail.com,pass991,Student,991,Taylor Swift,991,Playlist 991,991,Song 991,194,190
+992,user992@mail.com,pass992,Family,992,Imagine Dragons,992,Playlist 992,992,Song 992,188,42
+993,user993@mail.com,pass993,Family,993,Imagine Dragons,993,Playlist 993,993,Song 993,240,237
+994,user994@mail.com,pass994,Family,994,Adele,994,Playlist 994,994,Song 994,176,252
+995,user995@mail.com,pass995,Family,995,Coldplay,995,Playlist 995,995,Song 995,188,203
+996,user996@mail.com,pass996,Family,996,Adele,996,Playlist 996,996,Song 996,297,188
+997,user997@mail.com,pass997,Student,997,Imagine Dragons,997,Playlist 997,997,Song 997,207,275
+998,user998@mail.com,pass998,Free,998,Taylor Swift,998,Playlist 998,998,Song 998,207,193
+999,user999@mail.com,pass999,Premium,999,Taylor Swift,999,Playlist 999,999,Song 999,250,74
+1000,user1000@mail.com,pass1000,Student,1000,Taylor Swift,1000,Playlist 1000,1000,Song 1000,256,84
