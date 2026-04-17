@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify System</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #edf6f8;
+            color: #0f172a;
+            padding: 40px 20px;
+        }
+
+        .page {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+
+        .main-card {
+            background: #ffffff;
+            border-radius: 28px;
+            padding: 34px;
+            box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+            margin-bottom: 28px;
+        }
+
+        .title {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+            font-weight: 700;
+            color: #0b1f4d;
+        }
+
+        .subtitle {
+            margin: 0;
+            font-size: 17px;
+            color: #5b6475;
+            line-height: 1.5;
+        }
+
+        .info-grid {
+            margin-top: 28px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        .info-box {
+            background: #f8fbfc;
+            border: 1px solid #e5eef1;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .info-box h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #0b1f4d;
+        }
+
+        .info-box p {
+            margin: 0;
+            color: #667085;
+            line-height: 1.45;
+            font-size: 14px;
+        }
+
+        .section-card {
+            background: #ffffff;
+            border-radius: 28px;
+            padding: 30px;
+            box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+            margin-bottom: 24px;
+        }
+
+        .section-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .section-title {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+            color: #0b1f4d;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            padding: 12px 20px;
+            border-radius: 14px;
+            font-size: 15px;
+            font-weight: 700;
+            transition: 0.2s;
+        }
+
+        .btn-primary {
+            background: #1697c2;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #1184aa;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 720px;
+        }
+
+        thead th {
+            text-align: left;
+            padding: 14px 16px;
+            font-size: 15px;
+            color: #0b1f4d;
+            background: #f4f8fa;
+            border-bottom: 1px solid #dde7eb;
+        }
+
+        tbody td {
+            padding: 15px 16px;
+            border-bottom: 1px solid #e7eef2;
+            color: #334155;
+            font-size: 15px;
+            vertical-align: middle;
+        }
+
+        tbody tr:hover td {
+            background: #fbfdfe;
+        }
+
+        .subscription-badge {
+            display: inline-block;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: #e8f7fb;
+            color: #1697c2;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .actions {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .edit-link,
+        .delete-link {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .edit-link {
+            color: #1697c2;
+        }
+
+        .delete-link {
+            color: #ef4444;
+        }
+
+        .empty-text {
+            color: #667085;
+            margin: 0;
+            font-size: 15px;
+        }
+
+        @media (max-width: 900px) {
+            .info-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            .main-card,
+            .section-card {
+                padding: 22px;
+                border-radius: 22px;
+            }
+
+            .title {
+                font-size: 24px;
+            }
+
+            .section-title {
+                font-size: 20px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+
+        <div class="main-card">
+            <h1 class="title">Spotify System</h1>
+            <p class="subtitle">
+                Веб-додаток для управління користувачами, артистами, плейлистами та піснями
+            </p>
+
+            <div class="info-grid">
+                <div class="info-box">
+                    <h3>Користувачі</h3>
+                    <p>Перегляд, додавання, редагування та видалення користувачів</p>
+                </div>
+                <div class="info-box">
+                    <h3>Артисти</h3>
+                    <p>Перегляд, додавання, редагування та видалення артистів</p>
+                </div>
+                <div class="info-box">
+                    <h3>Плейлисти</h3>
+                    <p>Перегляд, додавання, редагування та видалення плейлистів</p>
+                </div>
+                <div class="info-box">
+                    <h3>Пісні</h3>
+                    <p>Перегляд, додавання, редагування та видалення пісень</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <div class="section-top">
+                <h2 class="section-title">Користувачі</h2>
+                <a href="/add_user" class="btn btn-primary">Додати користувача</a>
+            </div>
+
+            {% if users %}
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Пароль</th>
+                            <th>Тип підписки</th>
+                            <th>Дії</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for user in users %}
+                        <tr>
+                            <td>{{ user.email }}</td>
+                            <td>{{ user.password }}</td>
+                            <td>
+                                <span class="subscription-badge">{{ user.subscription_type }}</span>
+                            </td>
+                            <td>
+                                <div class="actions">
+                                    <a href="/edit_user/{{ user.id }}" class="edit-link">Редагувати</a>
+                                    <a href="/delete_user/{{ user.id }}" class="delete-link">Видалити</a>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+                <p class="empty-text">Користувачів ще немає.</p>
+            {% endif %}
+        </div>
+
+        <div class="section-card">
+            <div class="section-top">
+                <h2 class="section-title">Артисти</h2>
+                <a href="/add_artist" class="btn btn-primary">Додати артиста</a>
+            </div>
+
+            {% if artists %}
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ім’я артиста</th>
+                            <th>Дії</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for artist in artists %}
+                        <tr>
+                            <td>{{ artist.name }}</td>
+                            <td>
+                                <div class="actions">
+                                    <a href="/edit_artist/{{ artist.id }}" class="edit-link">Редагувати</a>
+                                    <a href="/delete_artist/{{ artist.id }}" class="delete-link">Видалити</a>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+                <p class="empty-text">Артистів ще немає.</p>
+            {% endif %}
+        </div>
+
+        <div class="section-card">
+            <div class="section-top">
+                <h2 class="section-title">Плейлисти</h2>
+                <a href="/add_playlist" class="btn btn-primary">Додати плейлист</a>
+            </div>
+
+            {% if playlists %}
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Назва</th>
+                            <th>Користувач</th>
+                            <th>Дії</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for playlist in playlists %}
+                        <tr>
+                            <td>{{ playlist.name }}</td>
+                            <td>{{ playlist.user.email }}</td>
+                            <td>
+                                <div class="actions">
+                                    <a href="/edit_playlist/{{ playlist.id }}" class="edit-link">Редагувати</a>
+                                    <a href="/delete_playlist/{{ playlist.id }}" class="delete-link">Видалити</a>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+                <p class="empty-text">Плейлистів ще немає.</p>
+            {% endif %}
+        </div>
+
+        <div class="section-card">
+            <div class="section-top">
+                <h2 class="section-title">Пісні</h2>
+                <a href="/add_song" class="btn btn-primary">Додати пісню</a>
+            </div>
+
+            {% if songs %}
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Назва</th>
+                            <th>Тривалість</th>
+                            <th>Артист</th>
+                            <th>Плейлист</th>
+                            <th>Дії</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for song in songs %}
+                        <tr>
+                            <td>{{ song.title }}</td>
+                            <td>{{ song.duration }} сек</td>
+                            <td>{{ song.artist.name }}</td>
+                            <td>{{ song.playlist.name }}</td>
+                            <td>
+                                <div class="actions">
+                                    <a href="/edit_song/{{ song.id }}" class="edit-link">Редагувати</a>
+                                    <a href="/delete_song/{{ song.id }}" class="delete-link">Видалити</a>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+                <p class="empty-text">Пісень ще немає.</p>
+            {% endif %}
+        </div>
+
+    </div>
+</body>
+</html>

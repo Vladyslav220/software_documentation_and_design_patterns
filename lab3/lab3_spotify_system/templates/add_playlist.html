@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Додати плейлист</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #eff6ff, #f8fafc);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .form-card {
+            width: 100%;
+            max-width: 560px;
+            background: white;
+            border-radius: 22px;
+            padding: 35px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+        }
+
+        .title {
+            margin: 0 0 8px 0;
+            font-size: 32px;
+            color: #111827;
+        }
+
+        .subtitle {
+            margin: 0 0 28px 0;
+            color: #6b7280;
+        }
+
+        .form-group { margin-bottom: 18px; }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #1f2937;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 13px 14px;
+            border: 1px solid #d1d5db;
+            border-radius: 12px;
+            font-size: 15px;
+            background: #f9fafb;
+            outline: none;
+        }
+
+        input:focus, select:focus {
+            border-color: #2563eb;
+            background: white;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+        }
+
+        .actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            border: none;
+            padding: 13px 20px;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: #2563eb;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #e5e7eb;
+            color: #111827;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-card">
+        <h1 class="title">Додати плейлист</h1>
+        <p class="subtitle">Створіть новий плейлист і виберіть користувача</p>
+
+        <form method="POST">
+            <div class="form-group">
+                <label for="name">Назва плейлиста</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="user_id">Користувач</label>
+                <select id="user_id" name="user_id" required>
+                    {% for user in users %}
+                    <option value="{{ user.id }}">{{ user.email }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="actions">
+                <button type="submit" class="btn btn-primary">Зберегти</button>
+                <a href="/" class="btn btn-secondary">Назад</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
